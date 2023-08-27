@@ -3,12 +3,12 @@
   "url": "https://devfest-berlin-4a469.web.app/",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyAeBo8gVf-p3TyzjnVnz8qc9t3fkQqjGRo",
-    "appId": "1:425481960120:web:182c11e4667d4efa3f524d",
+    "apiKey": "--",
+    "appId": "--",
     "databaseURL": "https://hoverboard-dev.firebaseio.com",
-    "messagingSenderId": "1083195713896",
-    "projectId": "devfest-berlin-4a469",
-    "storageBucket": "devfest-berlin-4a469.web.app"
+    "messagingSenderId": "1--",
+    "projectId": "--",
+    "storageBucket": "--"
   },
-  "googleMapApiKey": "AIzaSyAeBo8gVf-p3TyzjnVnz8qc9t3fkQqjGRo"
+  "googleMapApiKey": "--"
 }
