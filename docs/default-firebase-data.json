@@ -7,26 +7,50 @@
     {
       "items": [
         {
-          "order": 0,
-          "logoUrl": "../images/logos/gdg-lviv.svg",
-          "name": "GDG Lviv",
-          "url": "https://www.meetup.com/GDG-Lviv/"
+          "order": 1,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fgdg.png?alt=media&token=14a03374-cc91-4877-b156-c32eb5731808",
+          "name": "GDG Berlin",
+          "url": "https://gdg.community.dev/gdg-berlin/"
+        },
+        {
+          "order": 2,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fandroid.png?alt=media&token=a49bf0dc-277e-4f8c-94af-383f02b79f20",
+          "name": "GDG Berlin Android",
+          "url": "https://gdg.community.dev/gdg-berlin-android/"
+        },
+        {
+          "order": 3,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fgolang.png?alt=media&token=053c67dc-b6ea-4b6e-852b-48b0d8728cf0",
+          "name": "GDG Berlin Golang",
+          "url": "https://gdg.community.dev/gdg-berlin-golang//"
+        },
+        {
+          "order": 4,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fcloud.png?alt=media&token=3090fa8c-0378-46ae-ba26-2721c5255668",
+          "name": "GDG Cloud Berlin",
+          "url": "https://gdg.community.dev/gdg-cloud-berlin/"
+        },
+        {
+          "order": 5,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fwtm.png?alt=media&token=07baf8f6-4133-45e2-af87-2d3d377a64f6",
+          "name": "Women Techmakers",
+          "url": "https://gdg.community.dev/women-techmakers-berlin/"
+        },
+        {
+          "order": 6,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fflutter.png?alt=media&token=11990eb4-2588-4b92-b88a-cd2bcf5518ea",
+          "name": "Flutter Berlin",
+          "url": "https://www.meetup.com/en-US/flutter-berlin/"
+        },
+        {
+          "order": 7,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fkug.png?alt=media&token=dfec5424-5d87-4746-95f1-216da9c71d8a",
+          "name": "Kotlin User Group Berlin",
+          "url": "https://www.meetup.com/en-US/kotlin-berlin/"
         }
       ],
       "order": 0,
-      "title": "Template Creator"
-    },
-    {
-      "items": [
-        {
-          "order": 0,
-          "logoUrl": "../images/logos/google.svg",
-          "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
-        }
-      ],
-      "order": 1,
-      "title": "General Partner"
+      "title": ""
     }
   ],
   "schedule": {
@@ -402,43 +426,139 @@
     {
       "members": [
         {
-          "name": "Oleh Zasadnyy",
-          "photo": "/images/people/oleh_zasadnyy.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+          "name": "Bukola johnson",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fbukola.jpeg?alt=media&token=967bd8a1-5de1-4644-b237-ce9357608124",
           "socials": [
             {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/oleh.zasadnyy",
-              "name": "Facebook"
-            },
-            {
               "icon": "twitter",
-              "link": "https://twitter.com/ozasadnyy",
+              "link": "https://twitter.com/bukecious",
               "name": "Twitter"
             },
             {
-              "icon": "website",
-              "link": "http://o.zasadnyy.com/",
-              "name": "Blog"
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/bukola-johnson",
+              "name": "LinkedIn"
             }
           ],
           "order": 0,
-          "title": "Website and sponsors"
-        }
+          "title": ""
+        },
+        {
+          "name": "Eugenia Zigisova",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Feugenia.jpeg?alt=media&token=afc31880-ca5e-418b-a740-54b8d10bdf3f",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/jevgeniazi",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/imeugenia/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 1,
+          "title": ""
+        },
+        {
+          "name": "Manuela Sakura Rommel",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fmanuela.png?alt=media&token=6cd73059-c8a3-4242-a183-a5ad4745d3b5",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/ManuSakuraRo",
+              "name": "Twitter"
+            }
+          ],
+          "order": 2,
+          "title": ""
+        },
+        {
+          "name": "Louis Tsai",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Flouis.jpeg?alt=media&token=e0f600df-2c2c-43e8-9b2a-cc2cc8b28a16",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/louis993546",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/tsaitszho/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 3,
+          "title": ""
+        },
+        {
+          "name": "Ruba Kharrubi",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fruba.png?alt=media&token=08816bce-d500-43bc-970e-43100f3ce964",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/ruba-kharrubi/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 4,
+          "title": ""
+        },
+        {
+          "name": "Sasha Denisov",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fdenisov.png?alt=media&token=43fed2cd-03c1-4f96-abdb-5cca1bb95eb8",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/ShuregDenisov",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/aleks-denisov/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/denisovav",
+              "name": "GitHub"
+            }
+          ],
+          "order": 5  ,
+          "title": ""
+        }         
       ],
       "title": "Core Team"
     }
   ],
   "tickets": [
     {
-      "available": true,
+      "available": false,
       "currency": "€",
-      "ends": "Jan 24",
+      "ends": "Sep 31",
       "info": "",
-      "name": "",
-      "price": 0,
+      "name": "Early Birds",
+      "price": 10,
       "soldOut": false,
-      "starts": "Jan 17",
+      "starts": "Sep 1",
+      "url": "https://gdg.community.dev/events/details/google-gdg-berlin-presents-devfest-dach-2020-edition-the-delayed/#/"
+    },
+    {
+      "available": false,
+      "currency": "€",
+      "ends": "Nov 25",
+      "info": "",
+      "name": "Regular",
+      "price": 20,
+      "soldOut": false,
+      "starts": "Oct 1",
       "url": "https://gdg.community.dev/events/details/google-gdg-berlin-presents-devfest-dach-2020-edition-the-delayed/#/"
     }
   ],

@@ -1,25 +1,25 @@
 import {
   importBlog,
   // importGallery,
-  // importPartners,
+  //importPartners,
   // importPreviousSpeakers,
   // importSchedule,
   // importSessions,
-  importSpeakers,
-  // importTeam,
-  // importTickets,
+  //importSpeakers,
+  importTeam,
+  //importTickets,
   // importVideos,
 } from './utils';
 
 importBlog()
   // .then(() => importGallery())
-  // .then(() => importPartners())
+  //.then(() => importPartners())
   // .then(() => importPreviousSpeakers())
   // .then(() => importSchedule())
   // .then(() => importSessions())
-  .then(() => importSpeakers())
-  // .then(() => importTeam())
-  // .then(() => importTickets())
+  //.then(() => importSpeakers())
+  .then(() => importTeam())
+  //.then(() => importTickets())
   // .then(() => importVideos())
   .then(() => {
     console.log('Finished');

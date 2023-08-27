@@ -30,6 +30,7 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
 
         .logos-wrapper {
           display: grid;
+          justify-content: center;
           grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
           grid-gap: 8px;
         }
@@ -98,13 +99,14 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
           </div>
         </template>
 
-        <paper-button class="cta-button animated icon-right" on-click="_addPotentialPartner">
-          <span>{$ partnersBlock.button $}</span>
-          <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-        </paper-button>
       </div>
     `;
   }
+
+ /* <paper-button class="cta-button animated icon-right" on-click="_addPotentialPartner">
+  <span>{$ partnersBlock.button $}</span>
+  <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+</paper-button>;*/
 
   @property({ type: Object })
   private viewport = {};

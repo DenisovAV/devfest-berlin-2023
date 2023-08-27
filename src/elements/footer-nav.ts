@@ -79,7 +79,7 @@ export class FooterNav extends PolymerElement {
           <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer"
             >Project Hoverboard</a
           >
-          · <a class="coc" href="https://devfest.withgoogle.com/code-of-conduct">{$ codeOfConduct $}</a>
+          · <a class="coc" href="https://berlincodeofconduct.org/">{$ codeOfConduct $}</a>
         </div>
       </div>
     `;

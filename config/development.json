@@ -1,14 +1,14 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-dev.web.app/",
+  "url": "https://devfest-berlin-4a469.web.app/",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyAKOkGjmfBPTuYlDyPxlrSj7H-1oqWET7E",
-    "appId": "1:1083195713896:web:9aed8296d8d642cb",
+    "apiKey": "AIzaSyAeBo8gVf-p3TyzjnVnz8qc9t3fkQqjGRo",
+    "appId": "1:425481960120:web:182c11e4667d4efa3f524d",
     "databaseURL": "https://hoverboard-dev.firebaseio.com",
     "messagingSenderId": "1083195713896",
-    "projectId": "hoverboard-dev",
-    "storageBucket": "hoverboard-dev.appspot.com"
+    "projectId": "devfest-berlin-4a469",
+    "storageBucket": "devfest-berlin-4a469.web.app"
   },
-  "googleMapApiKey": "AIzaSyAKOkGjmfBPTuYlDyPxlrSj7H-1oqWET7E"
+  "googleMapApiKey": "AIzaSyAeBo8gVf-p3TyzjnVnz8qc9t3fkQqjGRo"
 }

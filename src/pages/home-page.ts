@@ -2,11 +2,11 @@ import { customElement, property } from '@polymer/decorators';
 import '@polymer/iron-icon';
 import { html, PolymerElement } from '@polymer/polymer';
 import '../components/about-block';
-// import '../elements/about-organizer-block';
+import '../elements/about-organizer-block';
 // import '../elements/featured-videos';
 import '../elements/fork-me-block';
 // import '../elements/gallery-block';
-// import '../elements/partners-block';
+import '../elements/partners-block';
 import '../elements/speakers-block';
 import '../elements/tickets-block';
 import { ReduxMixin } from '../mixins/redux-mixin';
@@ -162,6 +162,11 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               <iron-icon icon="hoverboard:ticket"></iron-icon>
               {$ buyTicket $}
             </paper-button>
+            <paper-button
+            on-click="_openPage"
+            primary
+          >Call for Speakers
+          </paper-button>
           </div>
 
           <div class="scroll-down" on-click="_scrollNextBlock">
@@ -229,19 +234,20 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         </div>
       </hero-block>
       <about-block></about-block>
-      <speakers-block></speakers-block>
       <subscribe-block></subscribe-block>
       <tickets-block></tickets-block>
+      <about-organizer-block></about-organizer-block>
+      <partners-block></partners-block>
       <footer-block></footer-block>
     `;
   }
 
-
+     // <speakers-block></speakers-block>
+     // 
   //       // <gallery-block></gallery-block>
-      // <about-organizer-block></about-organizer-block>
+
       // We can uncomment this once we have our videos uploaded
       // <featured-videos></featured-videos>
-      // <partners-block></partners-block>
 
       
   @property({ type: Boolean })
@@ -258,6 +264,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
     const toolbarHeight = Elements.HeaderToolbar.getBoundingClientRect().height - 1;
     const ticketsBlockPositionY = Elements.Tickets.getBoundingClientRect().top - toolbarHeight;
     scrollToY(ticketsBlockPositionY, 600, 'easeInOutSine');
+  }
+
+  _openPage() {
+    window.open('https://sessionize.com/devfest-berlin/', '_blank');
   }
 
   _scrollNextBlock() {

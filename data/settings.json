@@ -1,14 +1,14 @@
 {
   "organizer": {
-    "name": "GDGs DACH",
+    "name": "GDGs Berlin",
     "twitter": "",
     "blog": "",
-    "url": "https://devfestdach.online/"
+    "url": "https://devfes.berlin/"
   },
   "startDate": "2021-01-24T09:00:00+03:00",
   "endDate": "2032-01-24T19:00:00+03:00",
   "webapp": {
-    "shortName": "DevFest DACH",
+    "shortName": "DevFest Berlin",
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
@@ -24,18 +24,8 @@
       "label": "Home"
     },
     {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "label": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Schedule"
-    },
-    {
       "route": "team",
-      "permalink": "/team/",
+      "permalink": "/team",
       "label": "Team"
     }
   ],
@@ -100,9 +90,9 @@
   },
   "location": {
     "label": "Location",
-    "name": "DACH",
-    "city": "DACH",
-    "short": "DACH"
+    "name": "Berlin",
+    "city": "Berlin",
+    "short": "Berlin"
   },
   "mediaQueries": {
     "xs": {
@@ -134,7 +124,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "organizer@devfest.berlin",
   "contentLoaders": {
     "schedule": {
       "itemsCount": 2

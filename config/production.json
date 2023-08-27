@@ -1,12 +1,14 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.web.app/",
+  "url": "https://devfest-berlin-4a469.web.app/",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyA5gqvi7vtZfaLoyDVgbrEHGUfqjG795nM",
-    "projectId": "devfest-dach-2020-dev",
-    "storageBucket": "devfest-dach-2020-dev.appspot.com",
-    "messagingSenderId": "924561690997",
-    "appId": "1:924561690997:web:9badf27ac8a32c0ff1c33c"
-  }
+    "apiKey": "AIzaSyAeBo8gVf-p3TyzjnVnz8qc9t3fkQqjGRo",
+    "appId": "1:425481960120:web:182c11e4667d4efa3f524d",
+    "databaseURL": "https://hoverboard-dev.firebaseio.com",
+    "messagingSenderId": "1083195713896",
+    "projectId": "devfest-berlin-4a469",
+    "storageBucket": "devfest-berlin-4a469.web.app"
+  },
+  "googleMapApiKey": "AIzaSyAeBo8gVf-p3TyzjnVnz8qc9t3fkQqjGRo"
 }

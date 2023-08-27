@@ -1,9 +1,9 @@
 {
-  "title": "DevFest DACH 2020 (Delayed)",
+  "title": "DevFest Berlin 2023",
   "description": "Join the community, learn new things!",
   "image": "images/social-share.png",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "January 24, 2021",
+  "dates": "Novemeber 25, 2023",
   "partnershipProposition": "",
   "share": "Share",
   "followOur": "Follow our",
@@ -48,7 +48,7 @@
         },
         {
           "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
+          "url": "https://devfest.berlin",
           "newTab": true
         }
       ]
@@ -88,13 +88,13 @@
     "title": "About",
     "callToAction": {
       "featuredSessions": {
-        "description": "DevFest DACH brings together GDGs in Germany, Austria, and Switzerland to brings you some of the best content!"
+        "description": "GDG DevFest Berlin brings together the world class experts in Android, Web and Cloud technologies to Berlin for the whole day of sessions, workshops and showcases!"
       }
     },
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "100+"
+        "number": "250+"
       },
       "days": {
         "label": "Days",
@@ -118,7 +118,7 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Partners",
+    "title": "Communities",
     "button": "Become a partner",
     "form": {
       "title": "Become a partner!",
@@ -183,7 +183,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "DevFest team has never been more diverse! It has united [GDG Berlin](https://gdg.community.dev/gdg-berlin/), [GDG Berlin Android](https://gdg.community.dev/gdg-berlin-android/), [GDG Berlin Golang](https://gdg.community.dev/gdg-berlin-golang/), [GDG Cloud Berlin](https://gdg.community.dev/gdg-cloud-berlin/), [Women TechMakers](https://gdg.community.dev/women-techmakers-berlin/), [Flutter Berlin](https://www.meetup.com/en-US/flutter-berlin/) and [Kotlin User Group Berlin](https://www.meetup.com/en-US/kotlin-berlin/). They are independant groups of tech enthusiasts who create exciting events and share their passion for various technologies."
   },
   "feedback": {
     "save": "Save",
@@ -212,7 +212,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "Berlin GDGs, Flutter Berlin,  Kotlin User Group, and Women TechMakers have united to create DevFest Berlin 2023. Our mission is to celebrate Berlin’s diverse tech community and provide a platform for learning, networking, and inspiration.",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
@@ -229,7 +229,7 @@
       },
       {
         "title": "What is DevFest?",
-        "description": "DevFests are community-led developer events hosted by Google Developer Groups around the globe.",
+        "description": "DevFests are community-led non-profit developer events crafted with love by local tech community event organizers.",
         "callToAction": {
           "label": "Read more",
           "link": "https://devfest.withgoogle.com/",
