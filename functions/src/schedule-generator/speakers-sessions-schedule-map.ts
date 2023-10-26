@@ -5,6 +5,7 @@ export function sessionsSpeakersScheduleMap(sessionsRaw, speakersRaw, scheduleRa
   let scheduleTags = [];
 
   for (const dayKey of Object.keys(scheduleRaw)) {
+    console.log('ALDE dayKey', dayKey)  
     const day = scheduleRaw[dayKey];
     const tracksNumber = day.tracks.length;
     let dayTags = [];
@@ -13,22 +14,29 @@ export function sessionsSpeakersScheduleMap(sessionsRaw, speakersRaw, scheduleRa
 
     const timeslotLen = day.timeslots.length;
     for (let timeslotsIndex = 0; timeslotsIndex < timeslotLen; timeslotsIndex++) {
+      console.log('ALDE timeslotsIndex', timeslotsIndex)  
       const timeslot = day.timeslots[timeslotsIndex];
       let innerSessions = [];
 
       const sessionsLen = timeslot.sessions.length;
       for (let sessionIndex = 0; sessionIndex < sessionsLen; sessionIndex++) {
         const subSessions = [];
-
+        console.log('ALDE sessionIndex', sessionIndex)  
         const subSessionsLen = timeslot.sessions[sessionIndex].items.length;
         for (let subSessionIndex = 0; subSessionIndex < subSessionsLen; subSessionIndex++) {
+          console.log('ALDE subSessionIndex', subSessionIndex)  
           const sessionId = timeslot.sessions[sessionIndex].items[subSessionIndex];
+          console.log('ALDE sessionId', sessionId)  
           const subsession = sessionsRaw[sessionId];
+          console.log('ALDE subsession', subsession)  
           const mainTag =
             subsession.tags && subsession.tags.length ? subsession.tags[0] : 'General';
+          console.log('ALDE mainTag', mainTag)  
           const endTimeRaw = timeslot.sessions[sessionIndex].extend
             ? day.timeslots[timeslotsIndex + timeslot.sessions[sessionIndex].extend - 1].endTime
             : timeslot.endTime;
+          console.log('ALDE endTimeRaw', mainTag)  
+  
           const endTime =
             subSessionsLen > 1
               ? getEndTime(
@@ -46,9 +54,11 @@ export function sessionsSpeakersScheduleMap(sessionsRaw, speakersRaw, scheduleRa
 
           if (subsession.tags) {
             dayTags = [...new Set([...dayTags, ...subsession.tags])];
+            console.log('ALDE subsession.tags', dayTags)  
           }
           scheduleTags = addTagTo(scheduleTags || [], mainTag);
-
+          console.log('ALDE scheduleTags', scheduleTags)  
+          console.log('ALDE subsession.speakers', subsession.speakers)  
           const finalSubSession = Object.assign({}, subsession, {
             mainTag,
             id: sessionId.toString(),

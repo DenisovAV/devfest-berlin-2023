@@ -3,7 +3,7 @@
   "description": "Join the community, learn new things!",
   "image": "images/social-share.png",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "Novemeber 25, 2023",
+  "dates": "November 25, 2023",
   "partnershipProposition": "",
   "share": "Share",
   "followOur": "Follow our",
@@ -11,7 +11,7 @@
   "emailUs": "Email us",
   "partnershipResources": "",
   "eventResources": "",
-  "buyTicket": "RSVP",
+  "buyTicket": "BUY TICKET",
   "viewHighlights": "View Highlights",
   "offlineMessage": "You can still work offline.",
   "cachingComplete": "Caching complete! Future visits will work offline.",
@@ -62,16 +62,6 @@
           "newTab": true
         }
       ]
-    },
-    {
-      "title": "Event Resources",
-      "links": [
-        {
-          "name": "FAQs",
-          "url": "/faq/",
-          "newTab": false
-        }
-      ]
     }
   ],
   "subscribeNote": "No spam, only the latest news and updates!",
@@ -112,7 +102,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Join remotely, all you need is access to YouTube",
+    "ticketsDetails": "Tickets grant access to all conference sections, breakfast, lunch and all the coffee breaks.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"

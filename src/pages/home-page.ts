@@ -9,6 +9,7 @@ import '../elements/fork-me-block';
 import '../elements/partners-block';
 import '../elements/speakers-block';
 import '../elements/tickets-block';
+import '../elements/map-block';
 import { ReduxMixin } from '../mixins/redux-mixin';
 import { RootState } from '../store';
 import { toggleVideoDialog } from '../store/ui/actions';
@@ -237,6 +238,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <subscribe-block></subscribe-block>
       <tickets-block></tickets-block>
       <about-organizer-block></about-organizer-block>
+      <map-block></map-block>
       <partners-block></partners-block>
       <footer-block></footer-block>
     `;

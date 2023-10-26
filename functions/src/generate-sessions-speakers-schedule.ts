@@ -12,6 +12,7 @@ export const sessionsWrite = functions.firestore
 export const scheduleWrite = functions.firestore
   .document('schedule/{scheduleId}')
   .onWrite(async () => {
+    console.log('ALDE schedule write')
     const scheduleConfig = functions.config().schedule;
     if (!scheduleConfig || typeof scheduleConfig.enabled === 'undefined') {
       console.error(
@@ -20,7 +21,9 @@ export const scheduleWrite = functions.firestore
       );
       return null;
     }
+    console.log('ALDE schedule write 11')
     if (scheduleConfig.enabled === 'true') {
+      console.log('ALDE schedule write 22')
       return generateAndSaveData();
     }
     return null;
@@ -29,9 +32,11 @@ export const scheduleWrite = functions.firestore
 export const speakersWrite = functions.firestore
   .document('speakers/{speakerId}')
   .onWrite(async (change, context) => {
+    console.log('ALDE speaker write')
     const changedSpeaker = change.after.exists
       ? { id: context.params.speakerId, ...change.after.data() }
       : null;
+    console.log('ALDE speaker write 22')
     return generateAndSaveData(changedSpeaker);
   });
 
@@ -39,7 +44,7 @@ async function generateAndSaveData(changedSpeaker?) {
   const sessionsPromise = firestore().collection('sessions').get();
   const schedulePromise = firestore().collection('schedule').orderBy('date', 'desc').get();
   const speakersPromise = firestore().collection('speakers').get();
-
+  console.log('Generate and save data')
   const [sessionsSnapshot, scheduleSnapshot, speakersSnapshot] = await Promise.all([
     sessionsPromise,
     schedulePromise,
@@ -79,10 +84,13 @@ async function generateAndSaveData(changedSpeaker?) {
 
   if (!Object.keys(sessions).length) {
     generatedData = { ...speakers };
+    console.log('ALDE XXXX', generatedData)
   } else if (!scheduleEnabled || !Object.keys(schedule).length) {
     generatedData = sessionsSpeakersMap(sessions, speakers);
+    console.log('ALDE ZZZZ', generatedData)
   } else {
     generatedData = sessionsSpeakersScheduleMap(sessions, speakers, schedule);
+    console.log('ALDE YYYY', generatedData)
   }
 
   // If changed speaker does not have assigned session(s) yet

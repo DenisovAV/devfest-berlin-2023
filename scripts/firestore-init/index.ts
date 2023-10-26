@@ -3,9 +3,9 @@ import {
   // importGallery,
   //importPartners,
   // importPreviousSpeakers,
-  // importSchedule,
-  // importSessions,
-  //importSpeakers,
+  importSchedule,
+  importSessions,
+  importSpeakers,
   importTeam,
   //importTickets,
   // importVideos,
@@ -15,9 +15,9 @@ importBlog()
   // .then(() => importGallery())
   //.then(() => importPartners())
   // .then(() => importPreviousSpeakers())
-  // .then(() => importSchedule())
-  // .then(() => importSessions())
-  //.then(() => importSpeakers())
+  .then(() => importSchedule())
+  .then(() => importSessions())
+  .then(() => importSpeakers())
   .then(() => importTeam())
   //.then(() => importTickets())
   // .then(() => importVideos())

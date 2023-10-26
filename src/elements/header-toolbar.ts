@@ -164,13 +164,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           </paper-tab>
           {% endfor %}
 
-          <a
-            href$="[[_getTicketUrl(tickets)]]"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
-          </a>
         </paper-tabs>
 
         <paper-menu-button

@@ -30,7 +30,6 @@ export const SpeakersHoC = <
 
     connectedCallback() {
       super.connectedCallback();
-
       if (!this.speakersFetching && (!this.speakers || !this.speakers.length)) {
         store.dispatch(fetchSpeakersList());
       }

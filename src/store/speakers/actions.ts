@@ -10,7 +10,7 @@ export const fetchSpeakersList = () => (dispatch: Dispatch) => {
 
   const speakersPromise = new Promise((resolve, reject) => {
     db()
-      .collection('generatedSpeakers')
+      .collection('speakers')
       .orderBy('order', 'asc')
       .get()
       .then((snaps) => {

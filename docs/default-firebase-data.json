@@ -54,13 +54,13 @@
     }
   ],
   "schedule": {
-    "2021-01-24": {
-      "date": "2021-01-24",
-      "dateReadable": "January 24",
+    "2023-11-25": {
+      "date": "2023-11-25",
+      "dateReadable": "November 25",
       "timeslots": [
         {
-          "startTime": "11:00",
-          "endTime": "11:15",
+          "startTime": "09:00",
+          "endTime": "10:00",
           "sessions": [
             {
               "items": ["100"]
@@ -68,104 +68,53 @@
           ]
         },
         {
-          "startTime": "11:15",
-          "endTime": "11:45",
+          "startTime": "10:00",
+          "endTime": "10:20",
           "sessions": [
             {
               "items": ["101"]
-            },
-            {
-              "items": ["102"]
             }
           ]
         },
         {
-          "startTime": "11:55",
-          "endTime": "12:35",
+          "startTime": "10:20",
+          "endTime": "11:00",
           "sessions": [
             {
-              "items": ["103"]
+              "items": ["116"]
             },
-            {
-              "items": ["104"]
-            }
-          ]
-        },
-        {
-          "startTime": "12:45",
-          "endTime": "13:15",
-          "sessions": [
-            {
-              "items": ["105"]
-            },
-            {
-              "items": ["106"]
-            }
-          ]
-        },
-        {
-          "startTime": "13:25",
-          "endTime": "13:45",
-          "sessions": [
-            {
-              "items": ["107"]
-            },
-            {
-              "items": ["108"]
-            }
-          ]
-        },
-        {
-          "startTime": "13:55",
-          "endTime": "14:25",
-          "sessions": [
             {
               "items": ["109"]
             },
             {
+              "items": ["114"]
+            },
+            {
+              "items": ["120"]
+            }
+          ]
+        },
+        {
+          "startTime": "11:00",
+          "endTime": "11:40",
+          "sessions": [
+            {
+              "items": ["117"]
+            },
+            {
               "items": ["110"]
-            }
-          ]
-        },
-        {
-          "startTime": "14:35",
-          "endTime": "15:05",
-          "sessions": [
-            {
-              "items": ["111"]
-            }
-          ]
-        },
-        {
-          "startTime": "14:35",
-          "endTime": "15:15",
-          "sessions": [
-            {
-              "items": ["112"]
-            }
-          ]
-        },
-        {
-          "startTime": "15:15",
-          "endTime": "15:35",
-          "sessions": [
-            {
-              "items": ["113"]
-            }
-          ]
-        },
-        {
-          "startTime": "15:25",
-          "endTime": "15:55",
-          "sessions": [
+            },
             {
               "items": ["114"]
+            },
+            {
+              "items": ["120"]
             }
           ]
         },
         {
-          "startTime": "15:35",
-          "endTime": "16:40",
+          "startTime": "11:40",
+          "endTime": "12:00",
           "sessions": [
             {
               "items": ["118"]
@@ -173,17 +122,152 @@
           ]
         },
         {
-          "startTime": "16:05",
-          "endTime": "16:35",
+          "startTime": "12:00",
+          "endTime": "12:40",
           "sessions": [
             {
-              "items": ["115"]
+              "items": ["112"]
+            },
+            {
+              "items": ["104"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["120"]
             }
           ]
         },
         {
-          "startTime": "16:40",
-          "endTime": "1700",
+          "startTime": "12:40",
+          "endTime": "13:00",
+          "sessions": [
+            {
+              "items": ["115"]
+            },
+            {
+              "items": ["106"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["120"]
+            }
+          ]
+        },
+        {
+          "startTime": "13:00",
+          "endTime": "14:30",
+          "sessions": [
+            {
+              "items": ["121"]
+            }
+          ]
+        },
+        {
+          "startTime": "14:30",
+          "endTime": "15:10",
+          "sessions": [
+           {
+              "items": ["113"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["103"]
+            }
+          ]
+        },
+        {
+          "startTime": "15:10",
+          "endTime": "15:30",
+          "sessions": [
+           {
+              "items": ["107"]
+            },
+            {
+              "items": ["102"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["103"]
+            }
+          ]
+        },
+        {
+          "startTime": "15:30",
+          "endTime": "15:50",
+          "sessions": [
+           {
+              "items": ["120"]
+            },
+            {
+              "items": ["102"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["103"]
+            }
+          ]
+        },
+        {
+          "startTime": "15:50",
+          "endTime": "16:20",
+          "sessions": [
+            {
+              "items": ["118"]
+            }
+          ]
+        },
+        {
+          "startTime": "16:30",
+          "endTime": "17:10",
+          "sessions": [
+            {
+              "items": ["111"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["120"]
+            }
+          ]
+        },
+        {
+          "startTime": "17:10",
+          "endTime": "17:30",
+          "sessions": [
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["120"]
+            },
+            {
+              "items": ["120"]
+            }
+          ]
+        },
+        {
+          "startTime": "17:30",
+          "endTime": "18:00",
           "sessions": [
             {
               "items": ["119"]
@@ -193,120 +277,143 @@
       ],
       "tracks": [
         {
-          "title": "Android / Frontend"
+          "title": "Main"
         },
         {
-          "title": "Cloud"
+          "title": "Second"
+        },
+        {
+          "title": "Workshop 1"
+        },
+        {
+          "title": "Workshop 2"
         }
       ]
     }
   },
   "sessions": {
       "100": {
-        "title": "Welcome",
-        "speaker": "",
+        "title": "Registration and Breakfast",
+        "speakers": [""],
+        "type": "",
         "language": "English",
         "description": ""
       },
       "101": {
-        "title": "Cross platform UI development with Kotlin",
-        "speaker": "carlosMota",
+        "title": "Keynote",
+        "speakers": ["tim"],
+        "type": "talk",
         "language": "English",
-        "description": "For several years now, that we’ve been trying to find new solutions on how we could develop a single project and run it on all platforms. We’ve been seeing all types of solutions: some are web-based, others require you to learn a new language, and others even may require that you pay a monthly fee to use. It also comes with the drawback that all your UI depends on the framework implementation. So, if there’s a native update you’ll need to wait until someone rewrites the widgets for you to update your app. Kotlin multiplatform gives us a new solution. It focuses on sharing your business logic across all platforms, leaving the UI to be implemented natively. Since it’s Kotlin, you can take full advantage of its language features - concise, safe, etc. Moreover, if you’re coming from android you might already be familiarised with Kotlin and even if you’re an iOS developer you’ll see that it’s quite similar to Swift.\nJoin me on this triathlon and let’s go through Android, iOS, and Web in under 30 minutes."
+        "description": "DevFest is the world's largest globally distributed developer conference and allows developers from all backgrounds to connect, learn, and exchange. In this keynote, Tim will set the stage for DevFest Berlin by providing background on the roots of the GDG program and Google's other developer programs, explaining the origins of DevFest, and exploring the social impact aspect of the broader tech ecosystem."
       },
       "102": {
-        "title": "Microservices - The End of Software Design",
-        "speaker": "oleBulbuk",
+        "title": "Into the hive of eBPF!",
+        "speakers": ["mohammed"],
+        "type": "talk",
         "language": "English",
-        "description": "An introduction to what sets Go apart from other programming languages and how it simplifies the handling of complexity. The influence of language features, monoliths, microservices and monorepos on complexity is shown and how tools can help to mitigate remaining problems."
+        "description": "The buzz around eBPF is growing quickly and it is rising as an essential component for observability, security, tracing and networking within the cloud native ecosystem. In fact, it is changing the way we think about operating systems by opening the doors to fully customize the Linux kernel as a platform. In this session, we will cover the fundamentals of eBPF,its internals and core architecture. We will also delve into building real world examples and how developers can benefit from getting an inside look into their applications without code instrumentation, getting traces, analyzing the performance and identifying possibilities to improve using eBPF. We will also cover eBPF's benefits for cloud-native environments, highlighting its expanding landscape allowing to harness eBPF power and unlock its potential."
       },
       "103": {
-        "title": "And' Libraries, Stop Starting up!",
-        "speaker": "nishantSrivastava",
+        "title": "Exploring Data Analytics with Kotlin: From Data Ingestion to Deep Learning",
+        "speakers": ["aleksei"],
+        "type": "workshop",
         "language": "English",
-        "description": "A lot of Android libraries are being built/shipped by indie devs and companies alike. Everyone wants to start working inside the host application as quickly as possible. This competition has led to many of these Android libraries to implement various possible hack/tricks in order to get up and running inside host Android application as quickly as possible. Eventually leading to bad side effects introduced on the host application side.\nIn this session, you will get to learn about the various ways Android Library developers use to init their code inside the host application. You will also get to understand how these mechanisms work, what pitfalls they bring and where are these employed within an existing Android application. Towards the end of this session, the new and shiny Jetpack Startup AndroidX library will be introduced along with information on how to use it and what it brings to the table to solve the startup mess the Android Library ecosystem is in currently.\nBy the end of this session, you will be all set to build Android libraries that scale and have API which doesn't mess up with the startup of your Android application."
+        "description": "Join us for an 80-minute workshop at DevFest that's perfect for Kotlin developers eager to explore data analytics. This hands-on session covers key aspects of data analytics and will empower you with practical skills. 1) Data Gathering: Learn how to collect data from diverse sources such as databases and files. 2) Schema Handling: Discover methods for automatically creating and designing data schemas. 3) Data Manipulation: Dive into Kotlin DataFrames to efficiently clean and transform data. 4) Data Visualization: Master techniques for visualizing data trends and insights effectively with Kandy. 5) Deep Learning Introduction: Get an introduction to using deep learning models for object detection in practical applications with KotlinDL. As an attendee, you can look forward to a highly interactive workshop. You won't be left to figure things out on your own. The workshop facilitator will provide simple skeletons, small tasks, and datasets. These practical resources will enable you to write just a few lines of code to complete various exercises and gain a solid understanding of the concepts being taught. It's a great opportunity to learn by doing and build your confidence in data analytics with Kotlin."
       },
       "104": {
-        "title": "Get your CI / CD up and running in less then an hour in GCP",
-        "speaker": "marioFahlandt",
+        "title": "Mastering Go Testing and Benchmarks: Building Reliable and High-Performing Applications",
+        "speakers": ["christian"],
+        "type": "talk",
         "language": "English",
-        "description": "We set up a completely automated deployment process that starts with your code repository, builds automated images, and get them running in a Kubernetes Engine, all in Google Cloud. No more server management, just focus on what you like doing most: building great stuff. We will use Docker, the Container Builder Kubernetes Engine, Code Repository and Cloud Code. Bonus round: also include tests in your build process."
+        "description": "Testing and benchmarking are crucial aspects of software development, and Go provides a robust framework for both. In this session, I will delve into the world of Go testing and benchmarks, exploring best practices, advanced techniques, and real-world examples. From writing comprehensive unit tests to measuring and optimizing code performance, attendees will gain valuable insights and practical knowledge to ensure their Go applications are reliable, maintainable, and lightning-fast."
       },
       "105": {
         "title": "Break",
+        "speakers": [""],
         "icon": "coffee-break",
         "description": ""
       },
       "106": {
-        "title": "Go Pipelines: Dangerous Beauty of Go",
-        "speaker": "annaRosenthal",
+        "title": "Kill regression",
+        "speakers": ["valentin"],
+        "type": "talk",
         "language": "English",
-        "description": "There are many kinds of concurrent programs out there, a Go pipeline being one of them. Fundamentally, a pipeline is a series of stages connected by channels, where each stage is a Goroutine or a group of Goroutines running the same function. My talk is aimed at enthusiastic Go beginners. It introduces threads/processes, briefly mentions deadlocks, explains the major differences between a thread and a Goroutine, goes over channels and demonstrates a working Go pipeline. (Note to you: I can include code snippets or do a live demo for the pipeline portion; there will be code snippets for channels/Goroutines). "
+        "description": "In the fast-paced world of agile software development, efficiency and speed are key factors to success. Regression testing, while a powerful tool, may not always be the most practical solution in such environments. While this form of testing has traditionally been used to identify defects and issues with software, the process can be slow, expensive, and can impede development teams from experimenting with new code on production. For these reasons, many organizations have shifted their focus towards developing tools and environments that support testing on production. By leveraging tools like canary releases, shadowing traffic, and beta testing, developers can collect sufficient data points to ensure that a release is stable without the need for regression testing. These tools allow for more streamlined and efficient feedback on code changes, enabling engineers to experiment with new code and quickly identify and address any issues that may arise."
       },
       "107": {
-        "title": "Code Like a Child",
-        "speaker": "sarahWachs",
+        "title": "My journey from 'hello world' to developer advocacy",
+        "speakers": ["ayodeji"],
+        "type": "lightning",
         "language": "English",
-        "description": "Playful office spaces with video games and ping pong tables are a trend in startups and big tech companies alike. Sarah believes there are more situations than just recreation where we can benefit from sending our adult self on a break. Thinking more like children, we might come up with new ways to look at problems and find unique solutions to overcome technical challenges."
+        "description": "Have you in one time as a beginner, asked yourself or someone what path you should take to become, for instance, a frontend developer? I asked and got asked this question a lot but there is no one correct answer to this question. Personally, my tech career path to becoming a developing advocate has been anything but a straight path. My journey has been one of discovery, growth, and passion. From the excitement of writing my very first line of code, building developer communities to being a Developer Advocate at Adyen, my path has been marked by milestones that shaped me into who I am today. In this talk, I will share my journey from 'hello world' to developer advocacy."
       },
       "108": {
         "title": "Break",
+        "speakers": [""],
         "icon": "coffee-break",
         "description": ""
       },
       "109": {
-        "title": "There is 1 broken API among us",
-        "speaker": "nicolaCorti",
+        "title": "How to teach AI to know your API",
+        "speakers": ["yonatan"],
+        "type": "talk",
         "language": "English",
-        "description": "As a library user, you probably know that versions don't always tell the truth. Have you ever experienced a broken build after doing a minor bump of a library?\nAs a library author, maintaining a clean API is a challenge. There is always the risk that a breaking change sneaks in by accident.\nWouldn't it be nice to get notified if you're accidentally breaking your users' code? A tool to inspect the binary API of your Kotlin/Java code can help you exactly with that. In this talk, we will see some of those tools and how that simplifies the life of library & SDK developers."
+        "description": "New GenAI is the powerful thing. And we at monday.com decide to take it to the next level by teaching LLM how to produce perfect valid GraphQL queries based on our API. During this talk I will share what technics we used to achieve it, how we used Google's Vertex AI suite and what we learned from this journey."
       },
       "110": {
-        "title": "Security in serverless compute on Google Cloud: take over the control of the infrastructure",
-        "speaker": "guillaumeB",
+        "title": "How I used Siri, PaLM, LangChain, and Firebase to create an Exobrain",
+        "speakers": ["peter"],
+        "type": "talk",
         "language": "English",
-        "description": "Security is a common challenge for everyone. Standard and robust patterns exist and are known in traditional infrastructure. However, the serverless change the game and imply a false feeling of losing control, especially in the security part.\nThis session is focused on all the ways to secure the communication to and from serverless compute products on Google Cloud. The OAuth2 token generation and the difference of usage between access token and identity token, IAM service and the service/user accounts, VPC access and private networks access, load balancers, ingress and egress control will no longer have mysteries for you at the end of the session!"
+        "description": "In our fast paced world, there is just too much information, and it often seems impossible to keep up with everything that’s going on. If you ever felt that you couldn’t possibly remember everything you saw, read, or even didn’t read, come to this talk and I will show you how I build an app that allows me to do just that. I will show you how I used SwiftUI to build a beautiful app that works across Apple’s platforms, used Cloud Firestore to store gigabytes of data, keeping it in sync across all of my devices, used the PaLM API to summarise articles, and ask my app questions about articles, used LangChain to connect PaLM to my personal data store, Use Siri to provide a natural language interface that allows me to query my knowledge base hands-free"
       },
       "111": {
-        "title": "Cloud Native Analytics Infrastructure",
-        "speaker": "christianSoujon",
+        "title": "You might not need Cloud Dataflow, but you definitely need security.",
+        "speakers": ["graham", "natalie"],
+        "type": "talk",
         "language": "English",
-        "description": "Data engineers and data analysts have a huge toolset at their disposal today. Identifying the building blocks that match your data needs can be challenging. In this talk, I will give you an actionable guide on how to assemble your own cloud-native data architecture for 2021 and beyond."
+        "description": "In this talk, we'll explore alternatives to using Cloud Dataflow as the tool for building streaming pipelines, specifically looking at Cloud Run instead. But, using Cloud Run, there are security considerations to contend with, and we'll need to make sure it's secure."
       },
       "112": {
-        "title": "Composables under the hood",
-        "speaker": "thomasKunneth",
+        "title": "TextField in Jetpack Compose: past, present and future",
+        "speakers": ["alejandra"],
         "language": "English",
-        "description": "Building declarative user interfaces with Jetpack Compose is easy and fun. But if you come from imperative frameworks, you are used to certain ways of doing things. For example, custom components can be implemented using drawing primitives. How is this achieved with composables? Also, what about the main thread. Do we still need to take care of this? In this talk I will map imperative best practices to the declarative world. You'll see plenty of examples and running code."
+        "description": "Text input is a fundamental text component used in practically all apps at some point, from simple usage in a login screen to complex dynamic server-driven forms. In this talk we’ll recap current text input APIs and their shortcomings, in particular for state management. As well we’ll explore the brand new BasicTextField2 API surface for common scenarios along with filtering, selection, gestures and more. The API you've been waiting for is coming to you soon :)"
       },
       "113": {
-        "title": "What the heck are generators and coroutines?",
-        "speaker": "shishir",
+        "title": "Happy Healthy Team",
+        "speakers": ["vasilika"],
+        "type": "talk",
         "language": "English",
-        "description": "Generators and coroutines have become the buzz words now a days. In this talk I want to take some time out to unfold these concepts and make them simple to understand. So that, we can really use their power in our day to day programming activities."
+        "description": "I have been working in web development for 13 years. I worked as a single developer, as a team member, team leader, and as a manager who is responsible for the success of the project. Quite often, Frontend work is the final step before the releases. How not to go crazy when you have just 2 weeks before the release, and the design is not yet fully ready? What to do if you have a new technology stack and the team has not already handled it? What if the important developers leave the team before the release? Let’s talk about how to build processes in a team to have a self-managing team with a healthy environment. At some point, each of us realizes that our job is not only moving Jira tickets. :)"
       },
       "114": {
-        "title": "Influencing Diverstiy",
-        "speaker": "sowmyaGuru",
+        "title": "New CSS transitions: Let´s smooth it",
+        "speakers": ["fellyph"],
+        "type": "workshop",
         "language": "English",
-        "description": "If you a developer you can probably can relate to the empty toilets near the IT departments. Once I got so used to it that when I found another fellow human in there, I flinched. \nOver the years, I went on to change multiple jobs in Berlin but the problem still existed in most workplaces. \nThese days I mentor women and other underrepresented folks with their problems and teach programming with a hope that the diversity improves with time.\nTo succeed we need more mentors, advocates and role models who can be there and help lift each other up. \nIn my talk will be sharing what it means to promote diversity, some everyday problems and why diversity is an important topic for everyone."
+        "description": "Let´s play around with what is new on CSS, this workshop cover exercises with scroll driven animations and smooth entry and exit animations. Before we are going to have an introduction over the new initiatives that are helping to move forward those new features, such as, Interop and Baseline. For the exercises we are going to build a landing page to test the Scroll driven animations and work with some new HTML tags popover and dialog for testing the new entry and exit capabilities on web UI."
       },
       "115": {
-        "title": "How we learn to code together remotely",
-        "speaker": "ramonHuidobro",
+        "title": "Beyond Mobile: Building Personal Apps with Flutter",
+        "speakers": ["pascal"],
+        "type": "lightning",
         "language": "English",
-        "description": "Uprooting our coding study group to a remote, online format has had its challenges. Coming to terms with the fact that we behave and interact in a fundamentally different way on video (or other!) chat has motivated me to explore other methods of continuing to foster a community with an emphasis on curiosity.\nThis talk aims to detail the journey taken in moving our coding study group to a remote format, what we've learned from others trying the same, and how you can create (or participate in!) your own!"
+        "description": "Flutter is stable on mobile and desktop and it’s used by commercial apps today. But why stop there? Flutter is perfectly suited for personal apps that can simplify your daily workflows. With Flutter, you can easily share your apps with all family members or coworkers by compiling them for all platforms, even sharing them via link as web app. Let’s explore some wild ideas and practical tips, that will improve your daily workflows."
       },
       "116": {
-        "title": "Socialize",
-        "speaker": "",
+        "title": "Gilded Rose Refactoring Kata",
+        "speakers": ["dmytry"],
+        "type": "talk",
         "language": "English",
-        "description": ""
+        "description": "Gilded Rose code kata is an exercise designed to practice your refactoring skills. It simulates a legacy project in which you need to improve the code so you can add a new feature. In this live coding session, I will use the Kotlin version of the kata to show how a sequence of incremental improvements can make a difference, taking program design to a better and more functional place. You will see a few refactoring heuristics, IntelliJ tips and tricks, and design emerging from seemingly chaotic code."
       },
       "117": {
-        "title": "Socialize",
-        "speaker": "",
+        "title": "Android Accessibility: Do or Do",
+        "speakers": ["glafira"],
+        "type": "talk",
         "language": "English",
-        "description": ""
+        "description": "It is more convenient for blind people to use a smartphone than a computer! Of course, this statement is not true for everyone, but there are more and more smartphone users, and mobile operating systems are very quickly developing an accessible environment. Creating an application and uploading it to the store is also becoming easier. But these apps are often inaccessible to users with disabilities and do not work properly with accessibility settings (such as larger fonts). I'll go through the main problems that users face and tell you how to solve them."
       },
       "118": {
         "title": "Break",
@@ -314,112 +421,405 @@
       },
       "119": {
         "title": "Closing"
+      },
+      "120": {
+        "title": "TBD"
+      },
+      "121": {
+        "title": "Lunch Break",
+        "icon": "coffee-break"
       }
   },
   "speakers": {
-    "carlosMota": {
-      "bio": "Android tech lead at WIT Software, he can easily be spotted there working on the company RCS solution. An enthusiastic for new technology and always trying to reach those last 20% of all of his side projects that seem to be really far away, he loves to share his knowledge with others either by giving talks, teaching, writing or along with a cold beer in the nearest pub. GDG Coimbra organizer and Kotlin evangelist, he also has a huge passion for travel, photography, space and the occasional run.",
-      "company": "",
+    "tim": {
+      "bio": "In his current role, Tim leads the regional execution and program strategy targeting developers and startups for Google's Developer Relations Ecosystem team in Europe and Israel. His favorite technologies are Flutter and anything related to home automation. In 2016, Tim authored a book about web security and identity for O'Reilly. Before joining Google, he ran PayPal's Developer and Startup Relations team in EMEA and APAC.",
+      "company": "Google",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2FGoogle-logo.png?alt=media&token=e1d9eb83-8e0f-49bf-8118-641dd9e68c7a",
       "featured": true,
-      "name": "Carlos Mota",
+      "name": "Tim Messerschmidt",
+      "country": "Berlin, Germany",
       "photo": "/images/people/carlosMota.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/carlosMota.jpg?alt=media&token=665f2fa7-641c-4023-b9a5-cb494fb5064b"
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Ftim-messerschmidt.png?alt=media&token=2073f496-2919-47d4-98c5-e8aa41131561",
+      "shortBio": "In his current role, Tim leads the regional execution and program strategy targeting developers and startups for Google's Developer Relations Ecosystem team in Europe and Israel. His favorite technologies are Flutter and anything related to home automation. In 2016, Tim authored a book about web security and identity for O'Reilly. Before joining Google, he ran PayPal's Developer and Startup Relations team in EMEA and APAC.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/seraandroid",
+          "name": "Twitter"
+        }
+      ],
+      "title" : "Head of Developer Ecosystems, Europe"
     },
-    "oleBulbuk": {
-      "bio": "",
-      "company": "",
+    "glafira": {
+      "bio": "In the early years, Glafira was inspired by an idea to change CSS and HTML for an online text RPG and she never stopped because that was the way! Now, she is a member of the MinskCSS/MinskJS program committee and one of the creators of the Minsk branch of the famous Accessibility Club.",
+      "company": "SpurIT eCommerce Solutions",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2FspurIT.jpeg?alt=media&token=b572018c-deff-4b18-b0af-69d29edc7503",
       "featured": true,
-      "name": "Ole Bulbuk",
-      "photo": "/images/people/oleBulbuk.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/oleBulbuk.jpg?alt=media&token=4116fbb0-e5e2-4621-a7bf-7129f787dab2"
+      "name": "Glafira Zhur",
+      "country": "Vilnius, Lithuania",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fglafira.jpeg?alt=media&token=e3effb3d-e041-4630-963c-81d7da6878d8",
+      "shortBio": "In the early years, Glafira was inspired by an idea to change CSS and HTML for an online text RPG and she never stopped because that was the way! Now, she is a member of the MinskCSS/MinskJS program committee and one of the creators of the Minsk branch of the famous Accessibility Club.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/GlafiraZhur",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/glafira-zhur/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Accessibility Team Lead at SpurIT, GDE for Web"
     },
-    "nishantSrivastava": {
-      "bio": "Nishant is primarily an Android Engineer with experience developing mobile applications and SDKs for the Android platform. However, he has also dabbled into firmware engineering and DSP. He is an open-source enthusiast and contributes to the ecosystem via giving talks, writing blog posts, co-authoring/reviewing books, etc. He is a listed inventor on two patents for using mobile tech in cross-device mobile ad re-targeting domain using unique audio beacon tech. More about him at www.nisrulz.com",
-      "company": "",
+    "dmytry": {
+      "bio": "Dmitry has been programming since DOS times. He spent the last 15 years or so in Java lands, most recently working with server-side Kotlin.",
+      "company": "City",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fcity.jpeg?alt=media&token=aac38bc8-40a7-4c5a-86f4-9fe6a089611c",
       "featured": true,
-      "name": "Nishant Srivastava",
-      "photo": "/images/people/nishantSrivastava.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/nishantSrivastava.jpg?alt=media&token=dff0c1bc-69c6-486a-99f4-c0f3add7e266"
+      "name": "Dmitry Kandalov",
+      "country": "London, UK",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fdmytry.jpeg?alt=media&token=58b34990-d9e7-4cf4-bb10-1855265587e8",
+      "shortBio": "Dmitry has been programming since DOS times. He spent the last 15 years or so in Java lands, most recently working with server-side Kotlin.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/dmitrykandalov",
+          "name": "Twitter"
+        }
+      ],
+      "title" : "Software Developer"
     },
-    "marioFahlandt": {
-      "bio": "",
-      "company": "",
+    "pascal": {
+      "bio": "Pascal (Flutter GDE) had a 6-year-long Android background before he transitioned to ditch Kotlin for Dart and Flutter. At PHNTM he leads a team of Flutter talents delivering stunning user interfaces to audiences on all platforms. Pascal is a strong believer in testing and open-source. If you find any of his packages in your dependencies they are certainly well tested. Like his Feedback SDK Wiredash.",
+      "company": "phntm.xyz",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fphntm.png?alt=media&token=f780a7eb-8eec-4980-8bc1-2b34b8f778b8",
       "featured": true,
-      "name": "Mario Fahlandt",
-      "photo": "/images/people/marioFahlandt.jpg",
-      "photoUrl": ""
+      "name": "Pascal Welsch",
+      "country": "Cologne Bonn, Germany",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fpascal.png?alt=media&token=7c274a12-1612-4b13-9dde-c37024a986cc",
+      "shortBio": "Pascal (Flutter GDE) had a 6-year-long Android background before he transitioned to ditch Kotlin for Dart and Flutter. At PHNTM he leads a team of Flutter talents delivering stunning user interfaces to audiences on all platforms. Pascal is a strong believer in testing and open-source. If you find any of his packages in your dependencies they are certainly well tested. Like his Feedback SDK Wiredash.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/passsy",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "linkedin.com/in/pascal-welsch-679a2b80/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Flutter GDE, CTO at PHNTM, Co-Founder of Wiredash"
     },
-    "annaRosenthal": {
-      "bio": "Anna Rosenthal is a backend engineer who previously worked on Java and Go microservices and GCP infrastructure at startups in NYC. She started coding in Go a year ago and it's been \"love at first\" func for her since then. She wants to blog more at softly.blog; in the meantime, you can get in touch with her via Twitter @nnrsntl",
-      "company": "",
+    "fellyph": {
+      "bio": "As a seasoned Front-End Engineer with over a decade of experience, I always seek new ways to enhance digital experiences. I love nothing more than sharing my knowledge with others, so I'm a passionate advocate for learning and community building. Over the years, I've been lucky to be involved with tech communities worldwide. There's nothing quite like the energy of conferences and the exchange of ideas that takes place there. Over the years, I have spoken in more than 20 countries around the globe, sharing my expertise on all things front-end: CSS, performance optimization, machine learning, Progressive Web Apps (PWAs), and SEO. In 2019, my contributions to the DEV community earned me the title of Google Developer Expert in web technologies.",
+      "company": "phntm.xyz",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fcamp.png?alt=media&token=b8a56cdc-3b1f-4953-94ed-f55f5d3a04fb",
       "featured": true,
-      "name": "Anna Rosenthal",
-      "photo": "/images/people/annaRosenthal.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/annaRosenthal.jpg?alt=media&token=3f0dc7c4-0990-4e36-84d4-2462846dd17f"
+      "name": "Fellyph Cintra",
+      "country": "Lagos, Faro, Portugal",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Ffellyph-cintra.jpg?alt=media&token=748312bc-56c0-47c5-96e8-dc109bbb19d4",
+      "shortBio": "As a seasoned Front-End Engineer with over a decade of experience, I always seek new ways to enhance digital experiences. I love nothing more than sharing my knowledge with others, so I'm a passionate advocate for learning and community building.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/fellyph",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/fellyph/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Web consultant and Google Developer Expert"
     },
-    "sarahWachs": {
-      "bio": "Sarah Wachs is a Software Engineer with a focus on Javascript and frontend development. Passionate about sharing knowledge, she is active in the Berlin Tech communities in Berlin, e.g. organising events and workshops with Women Who Code. In her free time she likes to learn other technologies and languages like Go and Rust. To not spend all day in front of a screen, she is also always looking for analogue activities to try like sailing or knitting.",
-      "company": "",
+    "alejandra": {
+      "bio": "Alejandra is an Android software engineer and TL at HubSpot. Formerly Android Developer Relations Engineer at Google for Jetpack Compose (2021-2023). She's worked for multiple apps in the past, gathering a tenure of ~10 years in the industry.",
+      "company": "Hubspot",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fhubspot.jpeg?alt=media&token=ffe9c196-a144-46a9-b51d-798dd3a78377",
       "featured": true,
-      "name": "Sarah Wachs",
-      "photo": "/images/people/sarahWachs.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/sarahWachs.jpg?alt=media&token=1ea84484-ced7-49b8-96ee-da11aaad2d4b"
+      "name": "Alejandra Stamato",
+      "country": "London, UK",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Falejandra-stamato.png?alt=media&token=05e9d5e8-d7c6-4c7b-b953-9305c8ce199c",
+      "shortBio": "Alejandra is an Android software engineer and TL at HubSpot. Formerly Android Developer Relations Engineer at Google for Jetpack Compose (2021-2023). She's worked for multiple apps in the past, gathering a tenure of ~10 years in the industry.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/astamatok",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/alejandra-stamato/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Lead Android Developer @ HubSpot | Ex Android DevRel @ Google"
     },
-    "nicolaCorti": {
-      "bio": "Nicola Corti is a Google Developer Expert for Kotlin. He has been working with the language since before version 1.0 and he is the maintainer of several open-source libraries and tools. He's currently working as Android Infrastructure Engineer at Spotify in Stockholm, Sweden. Furthermore, he is an active member of the developer community. His involvement goes from speaking at international conferences about Mobile development to leading communities across Europe (GDG Pisa, KUG Hamburg, GDG Sthlm Android). In his free time, he also loves baking, photography, and running.",
+    "vasilika": {
+      "bio": "Vasilika has been a Web Developer for over 13 years (Frontend mostly, but also Fullstack).She had experience working as a single web developer, as a member of big teams in FinTech, and as a Team Lead of a small team. She enjoyed working on web 3D projects, awesome animations, visualizations, and good infographics. She is a speaker & organizer of tech meetups and conferences. She helped many students at different schools with learning web development. She likes tech communities and modern technologies. Last 7 years, she has been living in Luxembourg and holding a Luxembourg JavaScript meetup.In 2023 She started to work as a Developer Relations Engineer at Kadena.",
+      "company": "Kadena",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fkadena.jpeg?alt=media&token=8ab2c769-6068-42fe-a44a-b852efdc2b6f",
+      "featured": true,
+      "name": "Vasilika Klimova",
+      "country": "Luxembourg, Luxembourg",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fvasilika-klimova.jpg?alt=media&token=ff957d4e-fbc9-4400-8e65-5c091a9e178d",
+      "shortBio": "Vasilika has been a Web Developer for over 13 years (Frontend mostly, but also Fullstack).She had experience working as a single web developer, as a member of big teams in FinTech, and as a Team Lead of a small team. She enjoyed working on web 3D projects, awesome animations, visualizations, and good infographics. She is a speaker & organizer of tech meetups and conferences. She helped many students at different schools with learning web development. She likes tech communities and modern technologies. Last 7 years, she has been living in Luxembourg and holding a Luxembourg JavaScript meetup.In 2023 She started to work as a Developer Relations Engineer at Kadena.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/Lik04ka",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/likita/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Developer Relations Engineer, Google Developer Expert, Women Techmakers Ambassador, Teacher, Speaker"
+    },
+    "graham": {
+      "bio": "Trouble maker in the cloud",
+      "company": "Zencore",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fzencore.jpeg?alt=media&token=7457e231-4eaa-4eaa-ad95-ae30795d3f3d",
+      "featured": true,
+      "name": "Graham Polley",
+      "country": "London, England, United Kingdom",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fgraham.jpeg?alt=media&token=23ae4712-da9a-44ef-853b-e4d7fc9506db",
+      "shortBio": "Trouble maker in the cloud",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/polleyg",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/polleyg/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Cloud Technologist"
+    },
+    "natalie": {
+      "bio": "Natalie Godec is a systems/DevOps/cloud/platform engineer passionate about building secure distributed systems using the most fitting tech. In the past few years she's grown a particular interest in data platforms and security, and has recently stepped into the wonderful world of cloud architecture and consulting. When not thinking about the next thing to build, she enjoys photography and discovering the diverse cultures of the world.",
+      "company": "Zencore",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fzencore.jpeg?alt=media&token=7457e231-4eaa-4eaa-ad95-ae30795d3f3d",
+      "featured": true,
+      "name": "Natalie Godec",
+      "country": "London, England, United Kingdom",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fnatalie-godec.jpg?alt=media&token=561a35e4-d4a8-4052-aee4-6e1974eb3612",
+      "shortBio": "Natalie Godec is a systems/DevOps/cloud/platform engineer passionate about building secure distributed systems using the most fitting tech. In the past few years she's grown a particular interest in data platforms and security, and has recently stepped into the wonderful world of cloud architecture and consulting. When not thinking about the next thing to build, she enjoys photography and discovering the diverse cultures of the world.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ouvessvit",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/natalie-godec/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Cloud Architect at Zencore | Google Developer Expert in Cloud Platform | Women Techmakers Ambassador | ex-Babylon"
+    },
+    "peter": {
+      "bio": "As a senior developer advocate on the Firebase team at Google, Peter Friese is dedicated to helping developers build amazing experiences and high-quality apps using Firebase on iOS, Android, and the web. With a passion for empowering developers and fostering innovation, Peter works tirelessly with the Firebase team to make his vision of 'cutting short the time to magic' a reality. Peter is also the author of the book Asynchronous Programming with SwiftUI and Combine: Functional Programming to Build UIs on Apple Platforms and host of the YouTube show Better Safe than Sorry, which explores best practices for building secure apps. He has written code in BASIC, C, ObjectPascal, Java, Kotlin, Xtext, JavaScript, TypeScript, Objective-C, and a number of home-grown DSLs - but his all-time favourite is Swift.",
+      "company": "Google",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2FGoogle-logo.png?alt=media&token=e1d9eb83-8e0f-49bf-8118-641dd9e68c7a",
+      "featured": true,
+      "name": "Peter Friese",
+      "country": "Hamburg, Germany",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fpeter-friese.jpg?alt=media&token=1f0e27ae-65d2-4e79-8164-a0725cead599",
+      "shortBio": "As a senior developer advocate on the Firebase team at Google, Peter Friese is dedicated to helping developers build amazing experiences and high-quality apps using Firebase on iOS, Android, and the web. With a passion for empowering developers and fostering innovation, Peter works tirelessly with the Firebase team to make his vision of 'cutting short the time to magic' a reality. Peter is also the author of the book Asynchronous Programming with SwiftUI and Combine: Functional Programming to Build UIs on Apple Platforms and host of the YouTube show Better Safe than Sorry, which explores best practices for building secure apps. He has written code in BASIC, C, ObjectPascal, Java, Kotlin, Xtext, JavaScript, TypeScript, Objective-C, and a number of home-grown DSLs - but his all-time favourite is Swift.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/peterfriese",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/peterfriese/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Developer Advocate, Firebase"
+    },
+    "yonatan": {
+      "bio": "Yonatan Levin has over a decade of tech industry experience, excelling in turning startups into market successes. Currently leading the AI Team at monday.com, his focus is on incorporating GenAI to create innovative features. Before spearheading AI initiatives, Yonatan was a key player in multiple areas at monday.com. Not only did he contribute to optimizing the API in aspects like performance and scalability, but he also built the mobile team from scratch. Outside of his role at monday.com, Yonatan is the founder of 'Android Academy', the world’s largest community of Android aficionados. As a Google Developer Expert, he is a staple on the speaking circuit of renowned tech events like Droidcon and DevFest.",
+      "company": "Monday.com",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fmonday.jpeg?alt=media&token=755c57e1-b78d-4bc1-af62-a75166d66668",
+      "featured": true,
+      "name": "Yonatan (Yoni) Levin",
+      "country": "Tel-Aviv, Israel",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fyonatan-yoni-levin.jpg?alt=media&token=4e7977e6-8754-491d-89f9-05b8120fc662",
+      "shortBio": "Yonatan Levin has over a decade of tech industry experience, excelling in turning startups into market successes. Currently leading the AI Team at monday.com, his focus is on incorporating GenAI to create innovative features. Before spearheading AI initiatives, Yonatan was a key player in multiple areas at monday.com. Not only did he contribute to optimizing the API in aspects like performance and scalability, but he also built the mobile team from scratch. Outside of his role at monday.com, Yonatan is the founder of 'Android Academy', the world’s largest community of Android aficionados. As a Google Developer Expert, he is a staple on the speaking circuit of renowned tech events like Droidcon and DevFest.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/parahall",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/levinyonatan/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Mobile Team Lead"
+    },
+    "ayodeji": {
+      "bio": "As a Developer Advocate with several years of community experience, he has built and managed developer communities for Google, WordPress, Codecademy, and Polygon. He is an experienced public speaker and content creator. He create contents to simplify complex technical concepts. He is a seasoned open source advocate and loves hosting conversation and discussing various topics around Open Source education and sustainability.",
+      "company": "Adyen",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fadyen.jpeg?alt=media&token=912e5727-d46a-4e74-8870-2d5a1117229c",
+      "featured": true,
+      "name": "Ayodeji Ogundare",
+      "country": "Amsterdam, Netherlands",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fayodeji-ogundare.jpg?alt=media&token=852eb119-9fec-41dc-ab62-0a194c779d0f",
+      "shortBio": "As a Developer Advocate with several years of community experience, he has built and managed developer communities for Google, WordPress, Codecademy, and Polygon. He is an experienced public speaker and content creator. He create contents to simplify complex technical concepts. He is a seasoned open source advocate and loves hosting conversation and discussing various topics around Open Source education and sustainability.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ayodejidev",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ayodeji-ogundare/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Developer Advocate, Adyen"
+    },
+    "valentin": {
+      "bio": "Valentin is a quality software wizard, with over a decade of experience in the fast-paced world of extreme scrum and agile environments. He's a master of effective software quality assurance and testing, and he's always pushing the boundaries of what's possible. Today, Valentin is working on the cutting edge of consumer-focused software development, building high-quality mobile apps and backends that delight millions of users. But he's not content to rest on his laurels - his biggest challenge is helping his teams build, break, and recover ecosystems at lightning speed, all while keeping their focus firmly on the end user. It's a thrilling ride, but Valentin wouldn't have it any other way.",
+      "company": "SAP Signavio",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fsap.jpeg?alt=media&token=59234cd5-0ed1-4403-814b-1d8c7b93fb0f",
+      "featured": true,
+      "name": "Valentin Ranshakov",
+      "country": "Berlin, Germany",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fvalentin-ranshakov.jpg?alt=media&token=770904b6-00c4-4e15-aa5f-aaecf45b0704",
+      "shortBio": "Valentin is a quality software wizard, with over a decade of experience in the fast-paced world of extreme scrum and agile environments. He's a master of effective software quality assurance and testing, and he's always pushing the boundaries of what's possible. Today, Valentin is working on the cutting edge of consumer-focused software development, building high-quality mobile apps and backends that delight millions of users. But he's not content to rest on his laurels - his biggest challenge is helping his teams build, break, and recover ecosystems at lightning speed, all while keeping their focus firmly on the end user. It's a thrilling ride, but Valentin wouldn't have it any other way.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/valenso",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/valenso/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "SAP Signavio, Quality Expert"
+    },
+    "christian": {
+      "bio": "Introducing Christian Otieno, a software engineer whose heart beats to the rhythm of Go. With a passion for this enchanting programming language, Christian weaves elegant code symphonies, harnessing the power of Go's simplicity and concurrency. Join them on a transformative journey of discovery, where tranquillity meets innovation and the world of software engineering is forever changed. Get ready to be inspired as Christian unveils the magic of Go, one line of code at a time.",
+      "company": "Teya",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fteya.jpeg?alt=media&token=3fe6db51-8e84-4966-aa2a-8f0dd2083d2d",
+      "featured": true,
+      "name": "Christian Otieno",
+      "country": "Porto, Portugal",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fchristian-otieno.jpeg?alt=media&token=fbd3ccfa-6258-46d2-a5cc-c7e7f0a58511",
+      "shortBio": "Introducing Christian Otieno, a software engineer whose heart beats to the rhythm of Go. With a passion for this enchanting programming language, Christian weaves elegant code symphonies, harnessing the power of Go's simplicity and concurrency. Join them on a transformative journey of discovery, where tranquillity meets innovation and the world of software engineering is forever changed. Get ready to be inspired as Christian unveils the magic of Go, one line of code at a time.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/iamchrisotieno",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/christianotieno/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Software Engineer"
+    },
+    "aleksei": {
+      "bio": "Tempered in the crucible of Apache Hadoop and Apache Spark, the last few years, Alex is working on Machine Learning frameworks for JVM programming languages (Java, Scala, and Kotlin). In 2017 - 2020 he worked on a ML module for distributed in-memory database, Apache Ignite. 2020 was a year when Alexey created and released the new Deep Learning framework in Kotlin (Kotlin DL https://github.com/JetBrains/KotlinDL). Since 2022 Alexey is working on different ML projects written in Kotlin for Code Generation and Object Detection.",
+      "company": "JetBrains",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fjetbrains.jpeg?alt=media&token=d921feef-08ac-4225-8745-10d24c531c33",
+      "featured": true,
+      "name": "Aleksei Zinovev",
+      "country": "Berlin, Germany",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Faleksei-zinovev.jpg?alt=media&token=a8523634-e37f-4ddb-a462-e51a868da419",
+      "shortBio": "Tempered in the crucible of Apache Hadoop and Apache Spark, the last few years, Alex is working on Machine Learning frameworks for JVM programming languages (Java, Scala, and Kotlin). In 2017 - 2020 he worked on a ML module for distributed in-memory database, Apache Ignite. 2020 was a year when Alexey created and released the new Deep Learning framework in Kotlin (Kotlin DL https://github.com/JetBrains/KotlinDL). Since 2022 Alexey is working on different ML projects written in Kotlin for Code Generation and Object Detection.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/zaleslaw",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/zaleslaw/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "JetBrains, ML engineer"
+    },
+    "mohammed": {
+      "bio": "Mohammed is a community catalyst, a true open source believer and one of Google developer expert.",
       "company": "Spotify",
+      "companyLogo": "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fspotify.jpeg?alt=media&token=87bf4771-a0ee-442d-beb2-411c21d457c9",
       "featured": true,
-      "name": "Nicola Corti",
-      "photo": "/images/people/nicolaCorti.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/nicolaCorti.jpg?alt=media&token=4ffe293c-1e75-4b96-98c8-d1b56cd6ff7a"
-    },
-    "guillaumeB": {
-      "bio": "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Sfeir as Cloud Architect. Java developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language.  Innovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the \"usual\" problems that it solves. More generally, he likes helping people stucks on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume.blaquiere) and Twitter (@gblaquiere) ",
-      "company": "",
-      "featured": true,
-      "name": "Guillaume B",
-      "photo": "/images/people/guillaumeB.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/guillaumeB.jpg?alt=media&token=1b9c0de9-f7c7-4119-969a-b0c9bc396e3a"
-    },
-    "christianSoujon": {
-      "bio": "I'm a data-focussed Cloud Architect for DoiT International out of Hamburg, Germany. I spent a few years in the San Francisco Bay Area for school and work where I got my head stuck in the big data and tech world. Since then, I doubled down on the cloud and spent the last four years building the GCP business for a large marketing technology agency from scratch. When I'm not stuck in the cloud, I'm probably on my yoga mat or in the kitchen cooking up some plant-based treats 🥦",
-      "company": "",
-      "featured": true,
-      "name": "Christian Soujon",
-      "photo": "/images/people/christianSoujon.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/christianSoujon.jpg?alt=media&token=0f0535d3-c379-4210-99ea-ab20f2835aa4"
-    },
-    "thomasKunneth": {
-      "bio": "I love writing. That is, articles, apps and books. Also, I am a confessing mobile computing addict. And you can frequently watch me speaking at conferences and meetups. Being a child of the 70s my first encounter with programming was in the era of home computers. Those tiny machines (mine was a Laser 210) were usually fed with BASIC, which was the first programming language I learned. Later came C, Perl and a few more. During the 90s I wrote a bunch of programs for the Atari ST series. The first decade of my professional career was (inevitably) Java. Today it’s mostly Kotlin, C#, Dart and Swift.",
-      "company": "",
-      "featured": true,
-      "name": "Thomas Künneth",
-      "photo": "/images/people/thomasKunneth.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/thomasKunneth.png?alt=media&token=48f3e680-697f-423b-84f7-850519b65f47"
-    },
-    "shishir": {
-      "bio": "I'm a Software Engineer and an open-source enthusiast. I'm currently working at Snapengage. Apart from work I love to volunteer, play sports, go for hiking/trekking and do framing.  I am part of a few NGOs whose primary aim is to help students to excel in the tech industry and believe that \"Coding is magical, it provides a new perspective to life, teaching one to think logically and It also boosts creativity\"",
-      "company": "",
-      "featured": true,
-      "name": "Shishir Bondre",
-      "photo": "/images/people/shishir.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/shishir.jpg?alt=media&token=965c78c9-a7ce-4cc2-9bd1-462e71371625"
-    },
-    "sowmyaGuru": {
-      "bio": "I am a Freelance Android Engineer working in Berlin for over six years.  I enjoy working on social impactful projects and always open for collaboration. During my freetime, I am a yoga and meditation enthusiast, a sustainability advocate and a developer activist. ",
-      "company": "",
-      "featured": true,
-      "name": "Sowmya Guru",
-      "photo": "/images/people/sowmyaGuru.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/sowmyaGuru.jpg?alt=media&token=cd449a46-a509-4d28-a98b-1c4d98517295"
-    },
-    "ramonHuidobro": {
-      "bio": "Ramón is a software engineering and developer relations contractor based in Vienna, Austria. He's spent the last ten years being directly involved with small businesses and startups getting their apps off the ground or back in shape! His main motivation is community. He's not only actively worked with children, refugees as well as software builders both new and experienced, but also dedicated a significant amount of his time to organising conferences, workshops and other events aimed at helping empower folks in their tech journey.",
-      "company": "",
-      "featured": true,
-      "name": "Ramón Huidobro",
-      "photo": "/images/people/ramonHuidobro.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-dach-2020-dev.appspot.com/o/ramonHuidobro.jpg?alt=media&token=b1529e2c-c929-440c-8bde-96f772a00ef5"
+      "name": "Mohammed Aboullaite",
+      "country": "Stockholm, Sweden",
+      "photo": "/images/people/carlosMota.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fmohammed-aboullaite.jpg?alt=media&token=33bc8e09-2506-43a1-a0b5-e3934e188fff",
+      "shortBio": "Mohammed is a community catalyst, a true open source believer and one of Google developer expert.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/laytoun",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/aboullaite/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Backend engineer, Spotify"
     }
   },
   "team": [
@@ -464,17 +864,36 @@
           "title": ""
         },
         {
-          "name": "Manuela Sakura Rommel",
+          "name": "Frank Tamre",
           "photo": "",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fmanuela.png?alt=media&token=6cd73059-c8a3-4242-a183-a5ad4745d3b5",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Ffrank.jpeg?alt=media&token=5fe020eb-2280-4f3e-8813-2e9aa8892023",
           "socials": [
             {
               "icon": "twitter",
-              "link": "https://twitter.com/ManuSakuraRo",
+              "link": "https://twitter.com/tamrefrank",
               "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/tamrefrank/",
+              "name": "LinkedIn"
             }
           ],
           "order": 2,
+          "title": ""
+        },
+        {
+          "name": "Hany Elfouly",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fhany.jpeg?alt=media&token=2db98e48-90a8-4c76-a6eb-dfd5262fed3e",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/hany-elfouly/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 3,
           "title": ""
         },
         {
@@ -493,7 +912,35 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 3,
+          "order": 4,
+          "title": ""
+        },
+        {
+          "name": "Manuela Sakura Rommel",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fmanuela.png?alt=media&token=6cd73059-c8a3-4242-a183-a5ad4745d3b5",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/ManuSakuraRo",
+              "name": "Twitter"
+            }
+          ],
+          "order": 5,
+          "title": ""
+        },
+        {
+          "name": "Matthias Geisler",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fmatthias.jpg?alt=media&token=9432a80b-4a0e-4430-bc0e-ed2eca7d9a00",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/BitPogo",
+              "name": "Twitter"
+            }
+          ],
+          "order": 6,
           "title": ""
         },
         {
@@ -507,7 +954,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 4,
+          "order": 7,
           "title": ""
         },
         {
@@ -531,9 +978,37 @@
               "name": "GitHub"
             }
           ],
-          "order": 5  ,
+          "order": 8  ,
           "title": ""
-        }         
+        },
+        {
+          "name": "Tim Scheuermann",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Ftim.jpeg?alt=media&token=49c5aee2-8df9-431b-9ec6-ab4eacc3b87b",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/tim-scheuermann/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 9,
+          "title": ""
+        },
+        {
+          "name": "Nivetha Maran",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fdp.jpg?alt=media&token=3b6b69f6-2d1b-47cc-bf35-d24b28cd6373",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/nivethamaran/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 10,
+          "title": ""
+        }      
       ],
       "title": "Core Team"
     }
@@ -548,7 +1023,7 @@
       "price": 10,
       "soldOut": false,
       "starts": "Sep 1",
-      "url": "https://gdg.community.dev/events/details/google-gdg-berlin-presents-devfest-dach-2020-edition-the-delayed/#/"
+      "url": "https://buy.stripe.com/cN25lJeKt5x5bXGfZw"
     },
     {
       "available": false,
