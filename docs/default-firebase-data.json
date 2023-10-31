@@ -182,7 +182,7 @@
             },
             {
               "extend": 3,
-              "items": ["120"]
+              "items": ["122"]
             },
             {
               "extend": 3,
@@ -235,19 +235,7 @@
         },
         {
           "startTime": "17:10",
-          "endTime": "17:30",
-          "sessions": [
-            {
-              "items": ["120"]
-            },
-            {
-              "items": ["120"]
-            }
-          ]
-        },
-        {
-          "startTime": "17:30",
-          "endTime": "18:00",
+          "endTime": "17:40",
           "sessions": [
             {
               "items": ["119"]
@@ -408,6 +396,13 @@
       "121": {
         "title": "Lunch Break",
         "icon": "coffee-break"
+      },
+      "122": {
+        "title": "Speed Up Microservice Setup with Composable Approach",
+        "speakers": ["kateryna"],
+        "type": "workshop",
+        "language": "English",
+        "description": "Imagine how good it would be to have a magic button to set up and integrate a brand-new microservice in your ecosystem in XX minutes. Infrastructure, CI/CD, and basic code snippets all in one. This workshop aimed to familiarize you with the composable approach -- closest to the \"magic button\" as possible.  In this session, we'll walk you through how Terraform conjures infrastructure like magic, shared workflows streamline processes, and Maven archetypes simplify code generation. As the cherry on top -- live demo of the accelerator approach with Google cloud platfrom."
       }
   },
   "speakers": {
@@ -800,6 +795,31 @@
         }
       ],
       "title" : "Backend engineer, Spotify"
+    },
+    "kateryna": {
+      "bio": "I'm Software Engineering Consultant at Valtech, Google Developer Student Club Menor, Google Woman Techmakers Ambassador, passionate Cloud and CI/CD Automation Enthusiast. I mostly work with E-commerce projects, developing composable solutions and contributing to libraries for company-wide use. I summarize my experience in my blog, where I also share leadership tips and tricks for novice GDSC leaders.",
+      "company": "Valtech",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "featured": true,
+      "name": "Kateryna Hrytsaienko",
+      "country": "Kyiv, Ukraine",
+      "photo": "/images/people/kateryna-hrytsaienko.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fkateryna-hrytsaienko.jpg?alt=media&token=33bc8e09-2506-43a1-a0b5-e3934e188fff",
+      "shortBio": "I'm Software Engineering Consultant at Valtech, Google Developer Student Club Menor, Google Woman Techmakers Ambassador, passionate Cloud and CI/CD Automation Enthusiast.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/grizik_ek",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ekaterina-gricaenko",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Software Engineer Consultant, Woman Techmakers Ambassador, GDSC Mentor"
     }
   },
   "team": [
@@ -860,20 +880,6 @@
             }
           ],
           "order": 2,
-          "title": ""
-        },
-        {
-          "name": "Hany Elfouly",
-          "photo": "",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fhany.jpeg?alt=media&token=2db98e48-90a8-4c76-a6eb-dfd5262fed3e",
-          "socials": [
-            {
-              "icon": "linkedin",
-              "link": "https://www.linkedin.com/in/hany-elfouly/",
-              "name": "LinkedIn"
-            }
-          ],
-          "order": 3,
           "title": ""
         },
         {
