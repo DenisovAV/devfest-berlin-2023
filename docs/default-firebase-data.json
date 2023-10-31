@@ -8,6 +8,18 @@
       "items": [
         {
           "order": 1,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fhui.png?alt=media&token=0328aae3-0c25-4ad3-997c-287a7dfd2437",
+          "name": "Humboldt Initiative",
+          "url": "https://ini.hu-berlin.de/"
+        }
+      ],
+      "order": 0,
+      "title": "Host"
+    },
+    {
+      "items": [
+        {
+          "order": 1,
           "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/communities%2Fgdg.png?alt=media&token=14a03374-cc91-4877-b156-c32eb5731808",
           "name": "GDG Berlin",
           "url": "https://gdg.community.dev/gdg-berlin/"
@@ -49,8 +61,8 @@
           "url": "https://www.meetup.com/en-US/kotlin-berlin/"
         }
       ],
-      "order": 0,
-      "title": ""
+      "order": 1,
+      "title": "Communities"
     }
   ],
   "schedule": {

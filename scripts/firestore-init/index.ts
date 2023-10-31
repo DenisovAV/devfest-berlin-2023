@@ -1,7 +1,7 @@
 import {
   importBlog,
   // importGallery,
-  //importPartners,
+  importPartners,
   // importPreviousSpeakers,
   importSchedule,
   importSessions,
@@ -13,7 +13,7 @@ import {
 
 importBlog()
   // .then(() => importGallery())
-  //.then(() => importPartners())
+  .then(() => importPartners())
   // .then(() => importPreviousSpeakers())
   .then(() => importSchedule())
   .then(() => importSessions())
