@@ -155,19 +155,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
-            <paper-button
-              on-click="_scrollToTickets"
-              primary
-              invert
-            >
+            <paper-button on-click="_scrollToTickets" primary invert>
               <iron-icon icon="hoverboard:ticket"></iron-icon>
               {$ buyTicket $}
             </paper-button>
-            <paper-button
-            on-click="_openPage"
-            primary
-          >Call for Speakers
-          </paper-button>
           </div>
 
           <div class="scroll-down" on-click="_scrollNextBlock">
@@ -244,14 +235,13 @@ export class HomePage extends ReduxMixin(PolymerElement) {
     `;
   }
 
-     // <speakers-block></speakers-block>
-     // 
+  // <speakers-block></speakers-block>
+  //
   //       // <gallery-block></gallery-block>
 
-      // We can uncomment this once we have our videos uploaded
-      // <featured-videos></featured-videos>
+  // We can uncomment this once we have our videos uploaded
+  // <featured-videos></featured-videos>
 
-      
   @property({ type: Boolean })
   private active = false;
   @property({ type: Object })

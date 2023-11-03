@@ -424,7 +424,8 @@
           "name": "Twitter"
         }
       ],
-      "title" : "Head of Developer Ecosystems, Europe"
+      "title" : "Head of Developer Ecosystems, Europe",
+      "id": "tim-messerschmidt"
     },
     "glafira": {
       "bio": "In the early years, Glafira was inspired by an idea to change CSS and HTML for an online text RPG and she never stopped because that was the way! Now, she is a member of the MinskCSS/MinskJS program committee and one of the creators of the Minsk branch of the famous Accessibility Club.",
@@ -449,7 +450,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Accessibility Team Lead at SpurIT, GDE for Web"
+      "title" : "Accessibility Team Lead at SpurIT, GDE for Web",
+      "id": "glafira-zhur"
     },
     "dmytry": {
       "bio": "Dmitry has been programming since DOS times. He spent the last 15 years or so in Java lands, most recently working with server-side Kotlin.",
@@ -469,7 +471,8 @@
           "name": "Twitter"
         }
       ],
-      "title" : "Software Developer"
+      "title" : "Software Developer",
+      "id": "dmitry-kandalov"
     },
     "pascal": {
       "bio": "Pascal (Flutter GDE) had a 6-year-long Android background before he transitioned to ditch Kotlin for Dart and Flutter. At PHNTM he leads a team of Flutter talents delivering stunning user interfaces to audiences on all platforms. Pascal is a strong believer in testing and open-source. If you find any of his packages in your dependencies they are certainly well tested. Like his Feedback SDK Wiredash.",
@@ -494,7 +497,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Flutter GDE, CTO at PHNTM, Co-Founder of Wiredash"
+      "title" : "Flutter GDE, CTO at PHNTM, Co-Founder of Wiredash",
+      "id": "pascal-welsch"
     },
     "fellyph": {
       "bio": "As a seasoned Front-End Engineer with over a decade of experience, I always seek new ways to enhance digital experiences. I love nothing more than sharing my knowledge with others, so I'm a passionate advocate for learning and community building. Over the years, I've been lucky to be involved with tech communities worldwide. There's nothing quite like the energy of conferences and the exchange of ideas that takes place there. Over the years, I have spoken in more than 20 countries around the globe, sharing my expertise on all things front-end: CSS, performance optimization, machine learning, Progressive Web Apps (PWAs), and SEO. In 2019, my contributions to the DEV community earned me the title of Google Developer Expert in web technologies.",
@@ -519,7 +523,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Web consultant and Google Developer Expert"
+      "title" : "Web consultant and Google Developer Expert",
+      "id": "fellyph-cintra"
     },
     "alejandra": {
       "bio": "Alejandra is an Android software engineer and TL at HubSpot. Formerly Android Developer Relations Engineer at Google for Jetpack Compose (2021-2023). She's worked for multiple apps in the past, gathering a tenure of ~10 years in the industry.",
@@ -544,7 +549,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Lead Android Developer @ HubSpot | Ex Android DevRel @ Google"
+      "title" : "Lead Android Developer @ HubSpot | Ex Android DevRel @ Google",
+      "id": "alejandra-stamato"
     },
     "vasilika": {
       "bio": "Vasilika has been a Web Developer for over 13 years (Frontend mostly, but also Fullstack).She had experience working as a single web developer, as a member of big teams in FinTech, and as a Team Lead of a small team. She enjoyed working on web 3D projects, awesome animations, visualizations, and good infographics. She is a speaker & organizer of tech meetups and conferences. She helped many students at different schools with learning web development. She likes tech communities and modern technologies. Last 7 years, she has been living in Luxembourg and holding a Luxembourg JavaScript meetup.In 2023 She started to work as a Developer Relations Engineer at Kadena.",
@@ -569,7 +575,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Developer Relations Engineer, Google Developer Expert, Women Techmakers Ambassador, Teacher, Speaker"
+      "title" : "Developer Relations Engineer, Google Developer Expert, Women Techmakers Ambassador, Teacher, Speaker",
+      "id": "vasilika-klimova"
     },
     "graham": {
       "bio": "Trouble maker in the cloud",
@@ -594,7 +601,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Cloud Technologist"
+      "title" : "Cloud Technologist",
+      "id": "graham-polley"
     },
     "natalie": {
       "bio": "Natalie Godec is a systems/DevOps/cloud/platform engineer passionate about building secure distributed systems using the most fitting tech. In the past few years she's grown a particular interest in data platforms and security, and has recently stepped into the wonderful world of cloud architecture and consulting. When not thinking about the next thing to build, she enjoys photography and discovering the diverse cultures of the world.",
@@ -619,7 +627,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Cloud Architect at Zencore | Google Developer Expert in Cloud Platform | Women Techmakers Ambassador | ex-Babylon"
+      "title" : "Cloud Architect at Zencore | Google Developer Expert in Cloud Platform | Women Techmakers Ambassador | ex-Babylon",
+      "id": "natalie-godec"
     },
     "peter": {
       "bio": "As a senior developer advocate on the Firebase team at Google, Peter Friese is dedicated to helping developers build amazing experiences and high-quality apps using Firebase on iOS, Android, and the web. With a passion for empowering developers and fostering innovation, Peter works tirelessly with the Firebase team to make his vision of 'cutting short the time to magic' a reality. Peter is also the author of the book Asynchronous Programming with SwiftUI and Combine: Functional Programming to Build UIs on Apple Platforms and host of the YouTube show Better Safe than Sorry, which explores best practices for building secure apps. He has written code in BASIC, C, ObjectPascal, Java, Kotlin, Xtext, JavaScript, TypeScript, Objective-C, and a number of home-grown DSLs - but his all-time favourite is Swift.",
@@ -644,7 +653,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Developer Advocate, Firebase"
+      "title" : "Developer Advocate, Firebase",
+      "id": "peter-friese"
     },
     "yonatan": {
       "bio": "Yonatan Levin has over a decade of tech industry experience, excelling in turning startups into market successes. Currently leading the AI Team at monday.com, his focus is on incorporating GenAI to create innovative features. Before spearheading AI initiatives, Yonatan was a key player in multiple areas at monday.com. Not only did he contribute to optimizing the API in aspects like performance and scalability, but he also built the mobile team from scratch. Outside of his role at monday.com, Yonatan is the founder of 'Android Academy', the world’s largest community of Android aficionados. As a Google Developer Expert, he is a staple on the speaking circuit of renowned tech events like Droidcon and DevFest.",
@@ -669,7 +679,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Mobile Team Lead"
+      "title" : "Mobile Team Lead",
+      "id": "yoni-levin"
     },
     "ayodeji": {
       "bio": "As a Developer Advocate with several years of community experience, he has built and managed developer communities for Google, WordPress, Codecademy, and Polygon. He is an experienced public speaker and content creator. He create contents to simplify complex technical concepts. He is a seasoned open source advocate and loves hosting conversation and discussing various topics around Open Source education and sustainability.",
@@ -694,7 +705,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Developer Advocate, Adyen"
+      "title" : "Developer Advocate, Adyen",
+      "id": "ayodeji-ogundare"
     },
     "valentin": {
       "bio": "Valentin is a quality software wizard, with over a decade of experience in the fast-paced world of extreme scrum and agile environments. He's a master of effective software quality assurance and testing, and he's always pushing the boundaries of what's possible. Today, Valentin is working on the cutting edge of consumer-focused software development, building high-quality mobile apps and backends that delight millions of users. But he's not content to rest on his laurels - his biggest challenge is helping his teams build, break, and recover ecosystems at lightning speed, all while keeping their focus firmly on the end user. It's a thrilling ride, but Valentin wouldn't have it any other way.",
@@ -719,7 +731,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "SAP Signavio, Quality Expert"
+      "title" : "SAP Signavio, Quality Expert",
+      "id": "valentin-ranshakov"
     },
     "christian": {
       "bio": "Introducing Christian Otieno, a software engineer whose heart beats to the rhythm of Go. With a passion for this enchanting programming language, Christian weaves elegant code symphonies, harnessing the power of Go's simplicity and concurrency. Join them on a transformative journey of discovery, where tranquillity meets innovation and the world of software engineering is forever changed. Get ready to be inspired as Christian unveils the magic of Go, one line of code at a time.",
@@ -744,7 +757,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Software Engineer"
+      "title" : "Software Engineer",
+      "id": "christian-otieno"
     },
     "aleksei": {
       "bio": "Tempered in the crucible of Apache Hadoop and Apache Spark, the last few years, Alex is working on Machine Learning frameworks for JVM programming languages (Java, Scala, and Kotlin). In 2017 - 2020 he worked on a ML module for distributed in-memory database, Apache Ignite. 2020 was a year when Alexey created and released the new Deep Learning framework in Kotlin (Kotlin DL https://github.com/JetBrains/KotlinDL). Since 2022 Alexey is working on different ML projects written in Kotlin for Code Generation and Object Detection.",
@@ -769,7 +783,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "JetBrains, ML engineer"
+      "title" : "JetBrains, ML engineer",
+      "id": "aleksei-zinovev"
     },
     "mohammed": {
       "bio": "Mohammed is a community catalyst, a true open source believer and one of Google developer expert.",
@@ -794,7 +809,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Backend engineer, Spotify"
+      "title" : "Backend engineer, Spotify",
+      "id": "mohammed-aboullaite"
     },
     "kateryna": {
       "bio": "I'm Software Engineering Consultant at Valtech, Google Developer Student Club Menor, Google Woman Techmakers Ambassador, passionate Cloud and CI/CD Automation Enthusiast. I mostly work with E-commerce projects, developing composable solutions and contributing to libraries for company-wide use. I summarize my experience in my blog, where I also share leadership tips and tricks for novice GDSC leaders.",
@@ -819,7 +835,8 @@
           "name": "LinkedIn"
         }
       ],
-      "title" : "Software Engineer Consultant, Woman Techmakers Ambassador, GDSC Mentor"
+      "title" : "Software Engineer Consultant, Woman Techmakers Ambassador, GDSC Mentor",
+      "id": "kateryna-hrytsaienko"
     }
   },
   "team": [
