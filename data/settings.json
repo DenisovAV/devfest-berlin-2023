@@ -105,8 +105,8 @@
     "short": "Berlin, Germany",
     "address": "Ziegelstraße 5",
     "pointer": {
-      "latitude": 52.5207124,
-      "longitude": 13.391217,
+      "latitude": 52.523208,
+      "longitude": 13.389699,
       "zoom": 14
     },
     "mapCenter": {

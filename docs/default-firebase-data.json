@@ -898,7 +898,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 4,
+          "order": 3,
           "title": ""
         },
         {
@@ -912,7 +912,7 @@
               "name": "Twitter"
             }
           ],
-          "order": 5,
+          "order": 4,
           "title": ""
         },
         {
@@ -926,7 +926,7 @@
               "name": "Twitter"
             }
           ],
-          "order": 6,
+          "order": 5,
           "title": ""
         },
         {
@@ -940,7 +940,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 7,
+          "order": 6,
           "title": ""
         },
         {
@@ -964,7 +964,7 @@
               "name": "GitHub"
             }
           ],
-          "order": 8  ,
+          "order": 7,
           "title": ""
         },
         {
@@ -978,7 +978,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 9,
+          "order": 8,
           "title": ""
         },
         {
@@ -992,7 +992,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 10,
+          "order": 9,
           "title": ""
         }      
       ],
