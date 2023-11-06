@@ -104,7 +104,7 @@
             },
             {
               "extend": 2,
-              "items": ["120"]
+              "items": ["123"]
             }
           ]
         },
@@ -245,16 +245,16 @@
       ],
       "tracks": [
         {
-          "title": "Main"
+          "title": "Main | Ziegelstraße 5"
         },
         {
-          "title": "Second"
+          "title": "Second | Unter den Linden 6"
         },
         {
-          "title": "Workshop 1"
+          "title": "Workshop 1 | Unter den Linden 6"
         },
         {
-          "title": "Workshop 2"
+          "title": "Workshop 2 | Unter den Linden 6"
         }
       ]
     }
@@ -403,6 +403,13 @@
         "type": "workshop",
         "language": "English",
         "description": "Imagine how good it would be to have a magic button to set up and integrate a brand-new microservice in your ecosystem in XX minutes. Infrastructure, CI/CD, and basic code snippets all in one. This workshop aimed to familiarize you with the composable approach -- closest to the \"magic button\" as possible.  In this session, we'll walk you through how Terraform conjures infrastructure like magic, shared workflows streamline processes, and Maven archetypes simplify code generation. As the cherry on top -- live demo of the accelerator approach with Google cloud platfrom."
+      },
+      "123": {
+        "title": "Why mock Firebase when you can just test it with Patrol!",
+        "speakers": ["julia", "mateusz"],
+        "type": "workshop",
+        "language": "English",
+        "description": "E2E UI testing Flutter apps with Firebase features such as tapping on push notification or logging in with Google using Patrol native automations :)"
       }
   },
   "speakers": {
@@ -837,6 +844,58 @@
       ],
       "title" : "Software Engineer Consultant, Woman Techmakers Ambassador, GDSC Mentor",
       "id": "kateryna-hrytsaienko"
+    },
+    "julia": {
+      "bio": "QA Engineer at LeanCode for over 3 years. QA team leader and Product Owner of open-source Patrol framework project. Goal-oriented, interested in Agile approach to software testing.",
+      "company": "LeanCode",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "featured": true,
+      "name": "Julia Borkowska",
+      "country": "",
+      "photo": "/images/people/julia-borkowska-min.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fjulia-borkowska-min.jpeg?alt=media&token=99fd1f3e-99ad-4239-8184-c916cb978c18&_gl=1*walpq*_ga*MjE4MTAwMC4xNjk4MzQ2OTc1*_ga_CW55HF8NVT*MTY5OTMwMDc3OS4xMS4xLjE2OTkzMDIyOTEuNjAuMC4w",
+      "shortBio": "QA team leader and Product Owner of open-source Patrol framework project.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/julia_d_borko",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/julia-borkowska-47b027282",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Head of QA @ LeanCode",
+      "id": "julia-borkowska"
+    },
+    "mateusz": {
+      "bio": "In mobile development for 7 years. Went through Xamarin, React Native, native mobile to Flutter. Now we are only focused on doing mobile in Flutter 💙. Managing Flutter at Scale in Credit Agricole project. Co-founder of Flutter Warsaw - one of the largest Flutter meetups in Europe.",
+      "company": "LeanCode",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "featured": true,
+      "name": "Mateusz Wojtczak",
+      "country": "",
+      "photo": "/images/people/mateusz-wojtczak-min.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fmateusz-wojtczak-min.jpg?alt=media&token=9d23a751-391f-4afe-bcc4-9e6a51991eea&_gl=1*xarafu*_ga*MjE4MTAwMC4xNjk4MzQ2OTc1*_ga_CW55HF8NVT*MTY5OTMwMDc3OS4xMS4xLjE2OTkzMDIyNjEuMTIuMC4w",
+      "shortBio": "In mobile development for 7 years and now focused on Flutter. Co-founder of Flutter Warsaw.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/matiwojt",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/mateusz-wojtczak-02bb58210/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Head of Mobile @ LeanCode",
+      "id": "mateusz-wojtczak"
     }
   },
   "team": [
