@@ -100,12 +100,12 @@
             },
             {
               "extend": 2,
-              "items": ["114"]
+              "items": ["123"]
             },
             {
-              "extend": 2,
-              "items": ["123"]
-            }
+              "extend": 5,
+              "items": ["120"]
+            } 
           ]
         },
         {
@@ -141,11 +141,7 @@
             },
             {
               "extend": 2,
-              "items": ["120"]
-            },
-            {
-              "extend": 2,
-              "items": ["120"]
+              "items": ["114"]
             }
           ]
         },
@@ -940,25 +936,6 @@
           "title": ""
         },
         {
-          "name": "Frank Tamre",
-          "photo": "",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Ffrank.jpeg?alt=media&token=5fe020eb-2280-4f3e-8813-2e9aa8892023",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/tamrefrank",
-              "name": "Twitter"
-            },
-            {
-              "icon": "linkedin",
-              "link": "https://www.linkedin.com/in/tamrefrank/",
-              "name": "LinkedIn"
-            }
-          ],
-          "order": 2,
-          "title": ""
-        },
-        {
           "name": "Louis Tsai",
           "photo": "",
           "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Flouis.jpeg?alt=media&token=e0f600df-2c2c-43e8-9b2a-cc2cc8b28a16",
@@ -974,21 +951,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 3,
-          "title": ""
-        },
-        {
-          "name": "Manuela Sakura Rommel",
-          "photo": "",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fmanuela.png?alt=media&token=6cd73059-c8a3-4242-a183-a5ad4745d3b5",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/ManuSakuraRo",
-              "name": "Twitter"
-            }
-          ],
-          "order": 4,
+          "order": 2,
           "title": ""
         },
         {
@@ -1002,21 +965,7 @@
               "name": "Twitter"
             }
           ],
-          "order": 5,
-          "title": ""
-        },
-        {
-          "name": "Ruba Kharrubi",
-          "photo": "",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fruba.png?alt=media&token=08816bce-d500-43bc-970e-43100f3ce964",
-          "socials": [
-            {
-              "icon": "linkedin",
-              "link": "https://www.linkedin.com/in/ruba-kharrubi/",
-              "name": "LinkedIn"
-            }
-          ],
-          "order": 6,
+          "order": 3,
           "title": ""
         },
         {
@@ -1040,7 +989,7 @@
               "name": "GitHub"
             }
           ],
-          "order": 7,
+          "order": 4,
           "title": ""
         },
         {
@@ -1054,7 +1003,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 8,
+          "order": 5,
           "title": ""
         },
         {
@@ -1068,11 +1017,77 @@
               "name": "LinkedIn"
             }
           ],
+          "order": 6,
+          "title": ""
+        },
+        {
+          "name": "Manuela Sakura Rommel",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fmanuela.png?alt=media&token=6cd73059-c8a3-4242-a183-a5ad4745d3b5",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/ManuSakuraRo",
+              "name": "Twitter"
+            }
+          ],
+          "order": 7,
+          "title": ""
+        },
+        {
+          "name": "Ruba Kharrubi",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Fruba.png?alt=media&token=08816bce-d500-43bc-970e-43100f3ce964",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/ruba-kharrubi/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 8,
+          "title": ""
+        },
+        {
+          "name": "Frank Tamre",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Ffrank.jpeg?alt=media&token=5fe020eb-2280-4f3e-8813-2e9aa8892023",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/tamrefrank",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/tamrefrank/",
+              "name": "LinkedIn"
+            }
+          ],
           "order": 9,
           "title": ""
-        }      
+        },
+        {
+          "name": "Natalie Pistunovich",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fnatalie-pistunovich-min.png?alt=media&token=b8751ae7-28ce-4f34-a3c3-0d790f34c0e4&_gl=1*7q4kma*_ga*MjE4MTAwMC4xNjk4MzQ2OTc1*_ga_CW55HF8NVT*MTY5OTM4MDc3Mi4xMy4xLjE2OTkzODA4MTMuMTkuMC4w",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/NataliePis",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/nataliepistunovich/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 10,
+          "title": ""
+        }         
       ],
-      "title": "Core Team"
+      "title": "Team"
     }
   ],
   "tickets": [
