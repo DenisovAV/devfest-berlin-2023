@@ -174,7 +174,7 @@
               "items": ["113"]
             },
             {
-              "items": ["120"]
+              "items": ["125"]
             },
             {
               "extend": 3,
@@ -413,35 +413,16 @@
         "type": "workshop",
         "language": "English",
         "description": "Are you ready to streamline your application development and testing processes while building robust Go applications? Join our workshop to unlock the potential of Testcontainers for Go and embark on a journey to build a talk rating microservice from the ground up.<br>In this session, we'll guide you through the creation of a feature-rich microservice for rating conference talks, using a variety of technologies such as databases, caches, event brokers and AWS lambdas. We will put the emphasis in two crucial aspects: <br>- Containerized Local Development: Learn how to harness the power of Testcontainers for Go to simplify your Go application development workflow.<br>- Effortless Integration Testing: Explore how Testcontainers for Go empowers you to write integration tests with ease. See how containerized development naturally translates into seamless integration testing, ensuring your microservice functions as expected in real-world scenarios.<br>By the end of this workshop, you will:<br> - Gain mastery in containerized local development, allowing you to confidently manage your application's infrastructure directly in your code.<br>- Acquire the skills to write integration tests effortlessly, providing the assurance that your microservice performs flawlessly in diverse environments. <br> Containerized local development and integration testing can become your greatest allies in building robust and reliable applications. With Testcontainers for Go, they are much easier to achieve."
+      },
+      "125": {
+        "title": "Angular Renaissance: What's New in v17?",
+        "speakers": ["daria"],
+        "type": "talk",
+        "language": "English",
+        "description": "Welcome to Angular Renaissance! Angular 17, an upgrade to Google’s prominent TypeScript-based web development framework, is due this months with a few new features. This talk will uncover the innovations brought us by this release, including a new syntax for control flow, deferrable loading and Angular.dev playground."
       }
   },
   "speakers": {
-    "manuel": {
-      "bio": "Manuel is an OSS Software Engineer at AtomicJar where he maintains \"Testcontainers for Go\". Since 2003, he has held various roles in different parts of the development process, starting in 2003 working for the regional public administration in Castilla-La Mancha (Spain) until 2007, then worked at more traditional consulting firms. In 2011, he transitioned to product-oriented and Open Source companies, where he has served as a support engineer, trainer, and Core Engineer at Liferay, as QA Tech lead at Liferay Cloud. Finally, before joining AtomicJar, from 2019 to 2022 he has been involved in Engineering Productivity at Elastic as part of the Observability product. In every job he tries to improve the quality of the software products and processes from the automation and testing point of view. <br> He has also founded and managed a couple of small web development and systems consulting companies. Additionally, he organises the Google Developers Group in Toledo, Spain (GDG Toledo), where they run monthly discussions about software in its various aspects, serving as a small community outside the bustling Madrid. Manuel has delivered talks at different national and international events too. <br> Manuel holds a BS in Computer Science (UNED Spain), and a master degree in Research in Software Engineering and Information Systems (UNED Spain). You can find him on Internet as /\"mdelapenya\" everywhere.",
-      "company": "AtomicJar",
-      "companyLogo": "",
-      "companyLogoUrl": "",
-      "featured": true,
-      "name": "Manuel de la Peña",
-      "country": "Toledo, Spain",
-      "photo": "/images/people/manuel-de-la-pena-min.png",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fmanuel-de-la-pena-min.png?alt=media&token=f63fd2b4-6c76-4619-a741-e478aaf7456b",
-      "shortBio": "Manuel is an OSS Software Engineer at AtomicJar where he maintains \"Testcontainers for Go\". He has also founded and managed a couple of small web development and systems consulting companies. Additionally, he organises the Google Developers Group in Toledo, Spain (GDG Toledo).",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/mdelapenya",
-          "name": "Twitter"
-        },
-        {
-          "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/mdelapenya/",
-          "name": "LinkedIn"
-        }
-      ],
-      "title" : "OSS Software Engineer",
-      "id": "manuel-de-la-pena"
-    },
     "tim": {
       "bio": "In his current role, Tim leads the regional execution and program strategy targeting developers and startups for Google's Developer Relations Ecosystem team in Europe and Israel. His favorite technologies are Flutter and anything related to home automation. In 2016, Tim authored a book about web security and identity for O'Reilly. Before joining Google, he ran PayPal's Developer and Startup Relations team in EMEA and APAC.",
       "company": "Google",
@@ -462,6 +443,32 @@
       ],
       "title" : "Head of Developer Ecosystems, Europe",
       "id": "tim-messerschmidt"
+    },
+    "manuel": {
+      "bio": "Manuel is an OSS Software Engineer at AtomicJar where he maintains \"Testcontainers for Go\". Since 2003, he has held various roles in different parts of the development process, starting in 2003 working for the regional public administration in Castilla-La Mancha (Spain) until 2007, then worked at more traditional consulting firms. In 2011, he transitioned to product-oriented and Open Source companies, where he has served as a support engineer, trainer, and Core Engineer at Liferay, as QA Tech lead at Liferay Cloud. Finally, before joining AtomicJar, from 2019 to 2022 he has been involved in Engineering Productivity at Elastic as part of the Observability product. In every job he tries to improve the quality of the software products and processes from the automation and testing point of view. <br> He has also founded and managed a couple of small web development and systems consulting companies. Additionally, he organises the Google Developers Group in Toledo, Spain (GDG Toledo), where they run monthly discussions about software in its various aspects, serving as a small community outside the bustling Madrid. Manuel has delivered talks at different national and international events too. <br> Manuel holds a BS in Computer Science (UNED Spain), and a master degree in Research in Software Engineering and Information Systems (UNED Spain). You can find him on Internet as /\"mdelapenya\" everywhere.",
+      "company": "AtomicJar",
+      "companyLogo": "",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fatomicjar_logo.jpeg?alt=media&token=4ece1bcf-d6cb-47d3-b753-585389298e26",
+      "featured": true,
+      "name": "Manuel de la Peña",
+      "country": "Toledo, Spain",
+      "photo": "/images/people/manuel-de-la-pena-min.png",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fmanuel-de-la-pena-min.png?alt=media&token=f63fd2b4-6c76-4619-a741-e478aaf7456b",
+      "shortBio": "Manuel is an OSS Software Engineer at AtomicJar where he maintains \"Testcontainers for Go\". He has also founded and managed a couple of small web development and systems consulting companies. Additionally, he organises the Google Developers Group in Toledo, Spain (GDG Toledo).",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/mdelapenya",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/mdelapenya/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "OSS Software Engineer",
+      "id": "manuel-de-la-pena"
     },
     "glafira": {
       "bio": "In the early years, Glafira was inspired by an idea to change CSS and HTML for an online text RPG and she never stopped because that was the way! Now, she is a member of the MinskCSS/MinskJS program committee and one of the creators of the Minsk branch of the famous Accessibility Club.",
@@ -925,6 +932,27 @@
       ],
       "title" : "Head of Mobile @ LeanCode",
       "id": "mateusz-wojtczak"
+    },
+    "daria": {
+      "bio": "Self-taught Front-end Developer currently working at Rabobank in the Netherlands. Women* in Tech Community Lead at Rabobank. If you don’t see her programming, she is probably sewing, roller skating or travelling around South America.",
+      "company": "Rabobank",
+      "companyLogo": "",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Frabobank_logo.jpeg?alt=media&token=0b41d3d7-8b8c-4b6e-9f92-b518234da836",
+      "featured": true,
+      "name": "Daria Barsukova",
+      "country": "Toledo, Spain",
+      "photo": "/images/people/manuel-de-la-pena-min.png",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fdaria-barsukova.jpg?alt=media&token=cf46acd3-01b2-44bd-b72e-005740caeb6e",
+      "shortBio": "Self-taught Front-end Developer currently working at Rabobank in the Netherlands. Women* in Tech Community Lead at Rabobank. If you don’t see her programming, she is probably sewing, roller skating or travelling around South America.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/daria-barsukova",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Frontend Developer at Rabobank",
+      "id": "daria-barsukova"
     }
   },
   "team": [
