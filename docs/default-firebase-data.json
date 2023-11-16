@@ -81,7 +81,7 @@
         },
         {
           "startTime": "10:00",
-          "endTime": "10:20",
+          "endTime": "10:30",
           "sessions": [
             {
               "items": ["101"]
@@ -89,77 +89,104 @@
           ]
         },
         {
-          "startTime": "10:20",
-          "endTime": "11:00",
+          "startTime": "10:30",
+          "endTime": "10:40",
           "sessions": [
             {
-              "items": ["116"]
-            },
-            {
-              "items": ["109"]
-            },
-            {
-              "extend": 2,
-              "items": ["123"]
-            },
-            {
-              "extend": 5,
-              "items": ["124"]
-            } 
+              "items": ["105"]
+            }
           ]
         },
         {
-          "startTime": "11:00",
-          "endTime": "11:40",
+          "startTime": "10:40",
+          "endTime": "11:20",
           "sessions": [
             {
               "items": ["117"]
             },
             {
-              "items": ["110"]
+              "items": ["102"]
+            },
+            {
+              "extend": 3,
+              "items": ["123"]
+            },
+            {
+              "extend": 7,
+              "items": ["124"]
             }
           ]
         },
         {
-          "startTime": "11:40",
-          "endTime": "12:00",
+          "startTime": "11:20",
+          "endTime": "11:30",
           "sessions": [
             {
-              "items": ["118"]
+              "items": ["105"]
             }
           ]
         },
         {
-          "startTime": "12:00",
-          "endTime": "12:40",
+          "startTime": "11:30",
+          "endTime": "12:10",
           "sessions": [
             {
-              "items": ["112"]
+              "items": ["125"]
             },
             {
-              "items": ["104"]
+              "items": ["111"]
+            }
+          ]
+        },
+        {
+          "startTime": "12:10",
+          "endTime": "12:20",
+          "sessions": [
+            {
+              "items": ["105"]
+            }
+          ]
+        },
+        {
+          "startTime": "12:20",
+          "endTime": "13:00",
+          "sessions": [
+            {
+              "items": ["106"]
             },
             {
-              "extend": 2,
+              "items": ["116"]
+            },
+            {
+              "extend": 3,
               "items": ["114"]
             }
           ]
         },
         {
-          "startTime": "12:40",
-          "endTime": "13:00",
+          "startTime": "13:00",
+          "endTime": "13:10",
+          "sessions": [
+            {
+              "items": ["105"]
+            }
+          ]
+        },
+        {
+          "startTime": "13:10",
+          "endTime": "13:30",
           "sessions": [
             {
               "items": ["115"]
             },
             {
-              "items": ["106"]
+              "items": ["107"]
             }
           ]
         },
         {
-          "startTime": "13:00",
-          "endTime": "14:30",
+          "startTime": "13:30",
+          "endTime": "15:00",
           "sessions": [
             {
               "items": ["121"]
@@ -167,14 +194,14 @@
           ]
         },
         {
-          "startTime": "14:30",
-          "endTime": "15:10",
+          "startTime": "15:00",
+          "endTime": "15:40",
           "sessions": [
-           {
-              "items": ["113"]
+            {
+              "items": ["110"]
             },
             {
-              "items": ["125"]
+              "items": ["113"]
             },
             {
               "extend": 3,
@@ -187,42 +214,20 @@
           ]
         },
         {
-          "startTime": "15:10",
-          "endTime": "15:30",
-          "sessions": [
-           {
-              "items": ["107"]
-            },
-            {
-              "extend": 2,
-              "items": ["102"]
-            }
-          ]
-        },
-        {
-          "startTime": "15:30",
+          "startTime": "15:40",
           "endTime": "15:50",
           "sessions": [
-           {
-              "items": ["120"]
+            {
+              "items": ["105"]
             }
           ]
         },
         {
           "startTime": "15:50",
-          "endTime": "16:20",
+          "endTime": "16:30",
           "sessions": [
             {
-              "items": ["118"]
-            }
-          ]
-        },
-        {
-          "startTime": "16:30",
-          "endTime": "17:10",
-          "sessions": [
-            {
-              "items": ["111"]
+              "items": ["104"]
             },
             {
               "items": ["120"]
@@ -230,8 +235,29 @@
           ]
         },
         {
-          "startTime": "17:10",
-          "endTime": "17:40",
+          "startTime": "16:30",
+          "endTime": "16:40",
+          "sessions": [
+            {
+              "items": ["105"]
+            }
+          ]
+        },
+        {
+          "startTime": "16:40",
+          "endTime": "17:20",
+          "sessions": [
+            {
+              "items": ["109"]
+            },
+            {
+              "items": ["112"]
+            }
+          ]
+        },
+        {
+          "startTime": "17:30",
+          "endTime": "18:00",
           "sessions": [
             {
               "items": ["119"]
@@ -258,13 +284,14 @@
   "sessions": {
       "100": {
         "title": "Registration and Breakfast",
+        "icon": "registration",
         "speakers": [""],
         "type": "",
         "language": "English",
-        "description": ""
+        "description": "Please collect your badge at the main location: Hedwich-Dohm-Haus, Ziegelstraße 5, and enjoy breakfast that is also available at second location: Humboldt University, Unter den Linden 6."
       },
       "101": {
-        "title": "Keynote",
+        "title": "Welcome words and Keynote",
         "speakers": ["tim"],
         "type": "talk",
         "language": "English",
@@ -275,41 +302,51 @@
         "speakers": ["mohammed"],
         "type": "talk",
         "language": "English",
-        "description": "The buzz around eBPF is growing quickly and it is rising as an essential component for observability, security, tracing and networking within the cloud native ecosystem. In fact, it is changing the way we think about operating systems by opening the doors to fully customize the Linux kernel as a platform. In this session, we will cover the fundamentals of eBPF,its internals and core architecture. We will also delve into building real world examples and how developers can benefit from getting an inside look into their applications without code instrumentation, getting traces, analyzing the performance and identifying possibilities to improve using eBPF. We will also cover eBPF's benefits for cloud-native environments, highlighting its expanding landscape allowing to harness eBPF power and unlock its potential."
+        "description": "The buzz around eBPF is growing quickly and it is rising as an essential component for observability, security, tracing and networking within the cloud native ecosystem. In fact, it is changing the way we think about operating systems by opening the doors to fully customize the Linux kernel as a platform. In this session, we will cover the fundamentals of eBPF,its internals and core architecture. We will also delve into building real world examples and how developers can benefit from getting an inside look into their applications without code instrumentation, getting traces, analyzing the performance and identifying possibilities to improve using eBPF. We will also cover eBPF's benefits for cloud-native environments, highlighting its expanding landscape allowing to harness eBPF power and unlock its potential.",
+        "tags": ["Cloud"],
+        "complexity": "Intermediate"
       },
       "103": {
         "title": "Exploring Data Analytics with Kotlin: From Data Ingestion to Deep Learning",
         "speakers": ["aleksei"],
         "type": "workshop",
         "language": "English",
-        "description": "Join us for an 80-minute workshop at DevFest that's perfect for Kotlin developers eager to explore data analytics. This hands-on session covers key aspects of data analytics and will empower you with practical skills. 1) Data Gathering: Learn how to collect data from diverse sources such as databases and files. 2) Schema Handling: Discover methods for automatically creating and designing data schemas. 3) Data Manipulation: Dive into Kotlin DataFrames to efficiently clean and transform data. 4) Data Visualization: Master techniques for visualizing data trends and insights effectively with Kandy. 5) Deep Learning Introduction: Get an introduction to using deep learning models for object detection in practical applications with KotlinDL. As an attendee, you can look forward to a highly interactive workshop. You won't be left to figure things out on your own. The workshop facilitator will provide simple skeletons, small tasks, and datasets. These practical resources will enable you to write just a few lines of code to complete various exercises and gain a solid understanding of the concepts being taught. It's a great opportunity to learn by doing and build your confidence in data analytics with Kotlin."
+        "description": "Join us for an 80-minute workshop at DevFest that's perfect for Kotlin developers eager to explore data analytics. This hands-on session covers key aspects of data analytics and will empower you with practical skills. 1) Data Gathering: Learn how to collect data from diverse sources such as databases and files. 2) Schema Handling: Discover methods for automatically creating and designing data schemas. 3) Data Manipulation: Dive into Kotlin DataFrames to efficiently clean and transform data. 4) Data Visualization: Master techniques for visualizing data trends and insights effectively with Kandy. 5) Deep Learning Introduction: Get an introduction to using deep learning models for object detection in practical applications with KotlinDL. As an attendee, you can look forward to a highly interactive workshop. You won't be left to figure things out on your own. The workshop facilitator will provide simple skeletons, small tasks, and datasets. These practical resources will enable you to write just a few lines of code to complete various exercises and gain a solid understanding of the concepts being taught. It's a great opportunity to learn by doing and build your confidence in data analytics with Kotlin.",
+        "tags": ["Kotlin"],
+        "complexity": "Beginner"
       },
       "104": {
         "title": "Mastering Go Testing and Benchmarks: Building Reliable and High-Performing Applications",
         "speakers": ["christian"],
         "type": "talk",
         "language": "English",
-        "description": "Testing and benchmarking are crucial aspects of software development, and Go provides a robust framework for both. In this session, I will delve into the world of Go testing and benchmarks, exploring best practices, advanced techniques, and real-world examples. From writing comprehensive unit tests to measuring and optimizing code performance, attendees will gain valuable insights and practical knowledge to ensure their Go applications are reliable, maintainable, and lightning-fast."
+        "description": "Testing and benchmarking are crucial aspects of software development, and Go provides a robust framework for both. In this session, I will delve into the world of Go testing and benchmarks, exploring best practices, advanced techniques, and real-world examples. From writing comprehensive unit tests to measuring and optimizing code performance, attendees will gain valuable insights and practical knowledge to ensure their Go applications are reliable, maintainable, and lightning-fast.",
+        "tags": ["Go"],
+        "complexity": "Intermediate"
       },
       "105": {
-        "title": "Break",
+        "title": "Short break",
         "speakers": [""],
         "icon": "coffee-break",
-        "description": ""
+        "description": "Use this time to commute between 2 locations or get some coffee :)"
       },
       "106": {
         "title": "Kill regression",
         "speakers": ["valentin"],
         "type": "talk",
         "language": "English",
-        "description": "In the fast-paced world of agile software development, efficiency and speed are key factors to success. Regression testing, while a powerful tool, may not always be the most practical solution in such environments. While this form of testing has traditionally been used to identify defects and issues with software, the process can be slow, expensive, and can impede development teams from experimenting with new code on production. For these reasons, many organizations have shifted their focus towards developing tools and environments that support testing on production. By leveraging tools like canary releases, shadowing traffic, and beta testing, developers can collect sufficient data points to ensure that a release is stable without the need for regression testing. These tools allow for more streamlined and efficient feedback on code changes, enabling engineers to experiment with new code and quickly identify and address any issues that may arise."
+        "description": "In the fast-paced world of agile software development, efficiency and speed are key factors to success. Regression testing, while a powerful tool, may not always be the most practical solution in such environments. While this form of testing has traditionally been used to identify defects and issues with software, the process can be slow, expensive, and can impede development teams from experimenting with new code on production. For these reasons, many organizations have shifted their focus towards developing tools and environments that support testing on production. By leveraging tools like canary releases, shadowing traffic, and beta testing, developers can collect sufficient data points to ensure that a release is stable without the need for regression testing. These tools allow for more streamlined and efficient feedback on code changes, enabling engineers to experiment with new code and quickly identify and address any issues that may arise.",
+        "complexity": "Intermediate",
+        "tags": ["QA"]
       },
       "107": {
         "title": "My journey from 'hello world' to developer advocacy",
         "speakers": ["ayodeji"],
         "type": "lightning",
         "language": "English",
-        "description": "Have you in one time as a beginner, asked yourself or someone what path you should take to become, for instance, a frontend developer? I asked and got asked this question a lot but there is no one correct answer to this question. Personally, my tech career path to becoming a developing advocate has been anything but a straight path. My journey has been one of discovery, growth, and passion. From the excitement of writing my very first line of code, building developer communities to being a Developer Advocate at Adyen, my path has been marked by milestones that shaped me into who I am today. In this talk, I will share my journey from 'hello world' to developer advocacy."
+        "description": "Have you in one time as a beginner, asked yourself or someone what path you should take to become, for instance, a frontend developer? I asked and got asked this question a lot but there is no one correct answer to this question. Personally, my tech career path to becoming a developing advocate has been anything but a straight path. My journey has been one of discovery, growth, and passion. From the excitement of writing my very first line of code, building developer communities to being a Developer Advocate at Adyen, my path has been marked by milestones that shaped me into who I am today. In this talk, I will share my journey from 'hello world' to developer advocacy.",
+        "tags": ["Other"],
+        "complexity": "Beginner"
       },
       "108": {
         "title": "Break",
@@ -322,69 +359,88 @@
         "speakers": ["yonatan"],
         "type": "talk",
         "language": "English",
-        "description": "New GenAI is the powerful thing. And we at monday.com decide to take it to the next level by teaching LLM how to produce perfect valid GraphQL queries based on our API. During this talk I will share what technics we used to achieve it, how we used Google's Vertex AI suite and what we learned from this journey."
+        "description": "New GenAI is the powerful thing. And we at monday.com decide to take it to the next level by teaching LLM how to produce perfect valid GraphQL queries based on our API. During this talk I will share what technics we used to achieve it, how we used Google's Vertex AI suite and what we learned from this journey.",
+        "tags": ["AI", "Cloud"],
+        "complexity": "Intermediate"
       },
       "110": {
         "title": "How I used Siri, PaLM, LangChain, and Firebase to create an Exobrain",
         "speakers": ["peter"],
         "type": "talk",
         "language": "English",
-        "description": "In our fast paced world, there is just too much information, and it often seems impossible to keep up with everything that’s going on. If you ever felt that you couldn’t possibly remember everything you saw, read, or even didn’t read, come to this talk and I will show you how I build an app that allows me to do just that. I will show you how I used SwiftUI to build a beautiful app that works across Apple’s platforms, used Cloud Firestore to store gigabytes of data, keeping it in sync across all of my devices, used the PaLM API to summarise articles, and ask my app questions about articles, used LangChain to connect PaLM to my personal data store, Use Siri to provide a natural language interface that allows me to query my knowledge base hands-free"
+        "description": "In our fast paced world, there is just too much information, and it often seems impossible to keep up with everything that’s going on. If you ever felt that you couldn’t possibly remember everything you saw, read, or even didn’t read, come to this talk and I will show you how I build an app that allows me to do just that. I will show you how I used SwiftUI to build a beautiful app that works across Apple’s platforms, used Cloud Firestore to store gigabytes of data, keeping it in sync across all of my devices, used the PaLM API to summarise articles, and ask my app questions about articles, used LangChain to connect PaLM to my personal data store, Use Siri to provide a natural language interface that allows me to query my knowledge base hands-free",
+        "tags": ["AI", "Firebase"],
+        "complexity": "Intermediate"
       },
       "111": {
         "title": "You might not need Cloud Dataflow, but you definitely need security.",
         "speakers": ["graham", "natalie"],
         "type": "talk",
         "language": "English",
-        "description": "In this talk, we'll explore alternatives to using Cloud Dataflow as the tool for building streaming pipelines, specifically looking at Cloud Run instead. But, using Cloud Run, there are security considerations to contend with, and we'll need to make sure it's secure."
+        "description": "In this talk, we'll explore alternatives to using Cloud Dataflow as the tool for building streaming pipelines, specifically looking at Cloud Run instead. But, using Cloud Run, there are security considerations to contend with, and we'll need to make sure it's secure.",
+        "tags": ["Cloud"],
+        "complexity": "Intermediate"
       },
       "112": {
         "title": "TextField in Jetpack Compose: past, present and future",
         "speakers": ["alejandra"],
         "language": "English",
-        "description": "Text input is a fundamental text component used in practically all apps at some point, from simple usage in a login screen to complex dynamic server-driven forms. In this talk we’ll recap current text input APIs and their shortcomings, in particular for state management. As well we’ll explore the brand new BasicTextField2 API surface for common scenarios along with filtering, selection, gestures and more. The API you've been waiting for is coming to you soon :)"
+        "description": "Text input is a fundamental text component used in practically all apps at some point, from simple usage in a login screen to complex dynamic server-driven forms. In this talk we’ll recap current text input APIs and their shortcomings, in particular for state management. As well we’ll explore the brand new BasicTextField2 API surface for common scenarios along with filtering, selection, gestures and more. The API you've been waiting for is coming to you soon :)",
+        "tags": ["Android"],
+        "complexity": "Intermediate"
       },
       "113": {
         "title": "Happy Healthy Team",
         "speakers": ["vasilika"],
         "type": "talk",
         "language": "English",
-        "description": "I have been working in web development for 13 years. I worked as a single developer, as a team member, team leader, and as a manager who is responsible for the success of the project. Quite often, Frontend work is the final step before the releases. How not to go crazy when you have just 2 weeks before the release, and the design is not yet fully ready? What to do if you have a new technology stack and the team has not already handled it? What if the important developers leave the team before the release? Let’s talk about how to build processes in a team to have a self-managing team with a healthy environment. At some point, each of us realizes that our job is not only moving Jira tickets. :)"
+        "description": "I have been working in web development for 13 years. I worked as a single developer, as a team member, team leader, and as a manager who is responsible for the success of the project. Quite often, Frontend work is the final step before the releases. How not to go crazy when you have just 2 weeks before the release, and the design is not yet fully ready? What to do if you have a new technology stack and the team has not already handled it? What if the important developers leave the team before the release? Let’s talk about how to build processes in a team to have a self-managing team with a healthy environment. At some point, each of us realizes that our job is not only moving Jira tickets. :)",
+        "tags": ["Other"],
+        "complexity": "Beginner"
       },
       "114": {
         "title": "New CSS transitions: Let´s smooth it",
         "speakers": ["fellyph"],
         "type": "workshop",
         "language": "English",
-        "description": "Let´s play around with what is new on CSS, this workshop cover exercises with scroll driven animations and smooth entry and exit animations. Before we are going to have an introduction over the new initiatives that are helping to move forward those new features, such as, Interop and Baseline. For the exercises we are going to build a landing page to test the Scroll driven animations and work with some new HTML tags popover and dialog for testing the new entry and exit capabilities on web UI."
+        "description": "Let´s play around with what is new on CSS, this workshop cover exercises with scroll driven animations and smooth entry and exit animations. Before we are going to have an introduction over the new initiatives that are helping to move forward those new features, such as, Interop and Baseline. For the exercises we are going to build a landing page to test the Scroll driven animations and work with some new HTML tags popover and dialog for testing the new entry and exit capabilities on web UI.",
+        "tags": ["Web"],
+        "complexity": "Intermediate"
       },
       "115": {
         "title": "Beyond Mobile: Building Personal Apps with Flutter",
         "speakers": ["pascal"],
         "type": "lightning",
         "language": "English",
-        "description": "Flutter is stable on mobile and desktop and it’s used by commercial apps today. But why stop there? Flutter is perfectly suited for personal apps that can simplify your daily workflows. With Flutter, you can easily share your apps with all family members or coworkers by compiling them for all platforms, even sharing them via link as web app. Let’s explore some wild ideas and practical tips, that will improve your daily workflows."
+        "description": "Flutter is stable on mobile and desktop and it’s used by commercial apps today. But why stop there? Flutter is perfectly suited for personal apps that can simplify your daily workflows. With Flutter, you can easily share your apps with all family members or coworkers by compiling them for all platforms, even sharing them via link as web app. Let’s explore some wild ideas and practical tips, that will improve your daily workflows.",
+        "tags": ["Flutter"],
+        "complexity": "Beginner"
       },
       "116": {
         "title": "Gilded Rose Refactoring Kata",
         "speakers": ["dmytry"],
         "type": "talk",
         "language": "English",
-        "description": "Gilded Rose code kata is an exercise designed to practice your refactoring skills. It simulates a legacy project in which you need to improve the code so you can add a new feature. In this live coding session, I will use the Kotlin version of the kata to show how a sequence of incremental improvements can make a difference, taking program design to a better and more functional place. You will see a few refactoring heuristics, IntelliJ tips and tricks, and design emerging from seemingly chaotic code."
+        "description": "Gilded Rose code kata is an exercise designed to practice your refactoring skills. It simulates a legacy project in which you need to improve the code so you can add a new feature. In this live coding session, I will use the Kotlin version of the kata to show how a sequence of incremental improvements can make a difference, taking program design to a better and more functional place. You will see a few refactoring heuristics, IntelliJ tips and tricks, and design emerging from seemingly chaotic code.",
+        "tags": ["Kotlin"],
+        "complexity": "Intermediate"
       },
       "117": {
         "title": "Android Accessibility: Do or Do",
         "speakers": ["glafira"],
         "type": "talk",
         "language": "English",
-        "description": "It is more convenient for blind people to use a smartphone than a computer! Of course, this statement is not true for everyone, but there are more and more smartphone users, and mobile operating systems are very quickly developing an accessible environment. Creating an application and uploading it to the store is also becoming easier. But these apps are often inaccessible to users with disabilities and do not work properly with accessibility settings (such as larger fonts). I'll go through the main problems that users face and tell you how to solve them."
+        "description": "It is more convenient for blind people to use a smartphone than a computer! Of course, this statement is not true for everyone, but there are more and more smartphone users, and mobile operating systems are very quickly developing an accessible environment. Creating an application and uploading it to the store is also becoming easier. But these apps are often inaccessible to users with disabilities and do not work properly with accessibility settings (such as larger fonts). I'll go through the main problems that users face and tell you how to solve them.",
+        "tags": ["Accessibility", "Android"],
+        "complexity": "Intermediate"
       },
       "118": {
         "title": "Break",
         "icon": "coffee-break"
       },
       "119": {
-        "title": "Closing"
+        "title": "Closing Keynote",
+        "description": "Join us at the main location: Hedwich-Dohm-Haus, Ziegelstraße 5, and get the chance to get cool swag, group picture, and networking!"
       },
       "120": {
         "title": "TBD"
@@ -398,28 +454,36 @@
         "speakers": ["kateryna"],
         "type": "workshop",
         "language": "English",
-        "description": "Imagine how good it would be to have a magic button to set up and integrate a brand-new microservice in your ecosystem in XX minutes. Infrastructure, CI/CD, and basic code snippets all in one. This workshop aimed to familiarize you with the composable approach -- closest to the \"magic button\" as possible.  In this session, we'll walk you through how Terraform conjures infrastructure like magic, shared workflows streamline processes, and Maven archetypes simplify code generation. As the cherry on top -- live demo of the accelerator approach with Google cloud platfrom."
+        "description": "Imagine how good it would be to have a magic button to set up and integrate a brand-new microservice in your ecosystem in XX minutes. Infrastructure, CI/CD, and basic code snippets all in one. This workshop aimed to familiarize you with the composable approach -- closest to the \"magic button\" as possible.  In this session, we'll walk you through how Terraform conjures infrastructure like magic, shared workflows streamline processes, and Maven archetypes simplify code generation. As the cherry on top -- live demo of the accelerator approach with Google cloud platfrom.",
+        "tags": ["Cloud"],
+        "complexity": "Intermediate"
       },
       "123": {
         "title": "Why mock Firebase when you can just test it with Patrol!",
         "speakers": ["julia", "mateusz"],
         "type": "workshop",
         "language": "English",
-        "description": "E2E UI testing Flutter apps with Firebase features such as tapping on push notification or logging in with Google using Patrol native automations :)"
+        "description": "During the workshop, we will prepare the whole E2E testing scenario using Patrol. You will learn how you can use Patrol finders to supercharge your tests and how you can test native features with Patrol native automations. As an example, we will test our Patrol challenge app with Firebase native interactions.",
+        "tags": ["Firebase", "Flutter"],
+        "complexity": "Beginner"
       },
       "124": {
         "title": "Mastering Containerized Local Development and Integration Testing with Testcontainers for Go",
         "speakers": ["manuel"],
         "type": "workshop",
         "language": "English",
-        "description": "Are you ready to streamline your application development and testing processes while building robust Go applications? Join our workshop to unlock the potential of Testcontainers for Go and embark on a journey to build a talk rating microservice from the ground up.<br>In this session, we'll guide you through the creation of a feature-rich microservice for rating conference talks, using a variety of technologies such as databases, caches, event brokers and AWS lambdas. We will put the emphasis in two crucial aspects: <br>- Containerized Local Development: Learn how to harness the power of Testcontainers for Go to simplify your Go application development workflow.<br>- Effortless Integration Testing: Explore how Testcontainers for Go empowers you to write integration tests with ease. See how containerized development naturally translates into seamless integration testing, ensuring your microservice functions as expected in real-world scenarios.<br>By the end of this workshop, you will:<br> - Gain mastery in containerized local development, allowing you to confidently manage your application's infrastructure directly in your code.<br>- Acquire the skills to write integration tests effortlessly, providing the assurance that your microservice performs flawlessly in diverse environments. <br> Containerized local development and integration testing can become your greatest allies in building robust and reliable applications. With Testcontainers for Go, they are much easier to achieve."
+        "description": "Are you ready to streamline your application development and testing processes while building robust Go applications? Join our workshop to unlock the potential of Testcontainers for Go and embark on a journey to build a talk rating microservice from the ground up.<br>In this session, we'll guide you through the creation of a feature-rich microservice for rating conference talks, using a variety of technologies such as databases, caches, event brokers and AWS lambdas. We will put the emphasis in two crucial aspects: <br>- Containerized Local Development: Learn how to harness the power of Testcontainers for Go to simplify your Go application development workflow.<br>- Effortless Integration Testing: Explore how Testcontainers for Go empowers you to write integration tests with ease. See how containerized development naturally translates into seamless integration testing, ensuring your microservice functions as expected in real-world scenarios.<br>By the end of this workshop, you will:<br> - Gain mastery in containerized local development, allowing you to confidently manage your application's infrastructure directly in your code.<br>- Acquire the skills to write integration tests effortlessly, providing the assurance that your microservice performs flawlessly in diverse environments. <br> Containerized local development and integration testing can become your greatest allies in building robust and reliable applications. With Testcontainers for Go, they are much easier to achieve.",
+        "tags": ["Go"],
+        "complexity": "Intermediate"
       },
       "125": {
         "title": "Angular Renaissance: What's New in v17?",
         "speakers": ["daria"],
         "type": "talk",
         "language": "English",
-        "description": "Welcome to Angular Renaissance! Angular 17, an upgrade to Google’s prominent TypeScript-based web development framework, is due this months with a few new features. This talk will uncover the innovations brought us by this release, including a new syntax for control flow, deferrable loading and Angular.dev playground."
+        "description": "Welcome to Angular Renaissance! Angular 17, an upgrade to Google’s prominent TypeScript-based web development framework, is due this months with a few new features. This talk will uncover the innovations brought us by this release, including a new syntax for control flow, deferrable loading and Angular.dev playground.",
+        "tags": ["Web"],
+        "complexity": "Intermediate"
       }
   },
   "speakers": {
