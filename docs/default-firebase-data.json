@@ -1208,7 +1208,21 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 10,
+          "order": 9,
+          "title": ""
+        },
+        {
+          "name": "Laura/Sophia von Hirschhausen",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/team%2Flaura-min.jpg?alt=media&token=0625d53b-8f8a-4e38-8732-c80c4f983743",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/laura-von-hirschhausen",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 9,
           "title": ""
         }         
       ],
