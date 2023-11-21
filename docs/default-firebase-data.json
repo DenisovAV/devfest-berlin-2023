@@ -512,7 +512,7 @@
       "bio": "Katya is a Program Manager at Google Developer Relations team. Currently she is leading the Google Developer Groups (aka GDG) and Women Techmakers Ambassadors programs across Europe.",
       "company": "Google",
       "companyLogo": "",
-      "companyLogoUrl": "",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2FGoogle-logo.png?alt=media&token=e1d9eb83-8e0f-49bf-8118-641dd9e68c7a",
       "featured": true,
       "name": "Katya Vinnichenko",
       "country": "Berlin, Germany",
@@ -521,12 +521,17 @@
       "shortBio": "Katya is a Program Manager at Google Developer Relations team. Currently she is leading the Google Developer Groups (aka GDG) and Women Techmakers Ambassadors programs across Europe.",
       "socials": [
         {
+          "icon": "twitter",
+          "link": "https://twitter.com/vertigo87",
+          "name": "Twitter"
+        },
+        {
           "icon": "linkedin",
           "link": "https://www.linkedin.com/in/ekaterina-katya-vinnichenko-0a9ab884/",
           "name": "LinkedIn"
         }
       ],
-      "title" : "Program Manager @ Google",
+      "title" : "Program Manager",
       "id": "katya-vinnichenko"
     },
     "manuel": {
