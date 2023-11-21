@@ -292,7 +292,7 @@
       },
       "101": {
         "title": "Welcome words and Keynote",
-        "speakers": ["tim"],
+        "speakers": ["tim", "katya"],
         "type": "talk",
         "language": "English",
         "description": "DevFest is the world's largest globally distributed developer conference and allows developers from all backgrounds to connect, learn, and exchange. In this keynote, Tim will set the stage for DevFest Berlin by providing background on the roots of the GDG program and Google's other developer programs, explaining the origins of DevFest, and exploring the social impact aspect of the broader tech ecosystem."
@@ -1004,7 +1004,7 @@
       "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Frabobank_logo.jpeg?alt=media&token=0b41d3d7-8b8c-4b6e-9f92-b518234da836",
       "featured": true,
       "name": "Daria Barsukova",
-      "country": "Toledo, Spain",
+      "country": "Utrecht, the Netherlands",
       "photo": "/images/people/manuel-de-la-pena-min.png",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fdaria-barsukova.jpg?alt=media&token=cf46acd3-01b2-44bd-b72e-005740caeb6e",
       "shortBio": "Self-taught Front-end Developer currently working at Rabobank in the Netherlands. Women* in Tech Community Lead at Rabobank. If you don’t see her programming, she is probably sewing, roller skating or travelling around South America.",
@@ -1017,6 +1017,27 @@
       ],
       "title" : "Frontend Developer at Rabobank",
       "id": "daria-barsukova"
+    },
+    "katya": {
+      "bio": "Katya is a Program Manager at Google Developer Relations team. Currently she is leading the Google Developer Groups (aka GDG) and Women Techmakers Ambassadors programs across Europe.",
+      "company": "Google",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "featured": true,
+      "name": "Katya Vinnichenko",
+      "country": "Berlin, Germany",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fkatya.jpg?alt=media&token=02efaa23-1dd4-4813-9a67-316a94e4c69d",
+      "shortBio": "Katya is a Program Manager at Google Developer Relations team. Currently she is leading the Google Developer Groups (aka GDG) and Women Techmakers Ambassadors programs across Europe.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ekaterina-katya-vinnichenko-0a9ab884/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Program Manager @ Google",
+      "id": "katya-vinnichenko"
     }
   },
   "team": [
