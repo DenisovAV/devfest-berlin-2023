@@ -246,12 +246,12 @@
         {
           "startTime": "16:40",
           "endTime": "17:20",
-          "sessions": [
-            {
-              "items": ["102"]
-            },
+          "sessions": [ 
             {
               "items": ["125"]
+            },
+            {
+              "items": ["102"]
             }
           ]
         },
