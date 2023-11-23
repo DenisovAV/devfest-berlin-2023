@@ -205,7 +205,7 @@
             },
             {
               "extend": 3,
-              "items": ["122"]
+              "items": ["120"]
             },
             {
               "extend": 3,
@@ -224,11 +224,21 @@
         },
         {
           "startTime": "15:50",
-          "endTime": "16:30",
+          "endTime": "16:10",
           "sessions": [
             {
-              "items": ["104"]
+              "items": ["126"]
             },
+            {
+              "extend": 2,
+              "items": ["104"]
+            }
+          ]
+        },
+        {
+          "startTime": "16:10",
+          "endTime": "16:30",
+          "sessions": [
             {
               "items": ["120"]
             }
@@ -449,7 +459,7 @@
         "title": "Lunch Break",
         "icon": "coffee-break"
       },
-      "122": {
+      "0": {
         "title": "Speed Up Microservice Setup with Composable Approach",
         "speakers": ["kateryna"],
         "type": "workshop",
@@ -484,6 +494,15 @@
         "description": "Welcome to Angular Renaissance! Angular 17, an upgrade to Google’s prominent TypeScript-based web development framework, is due this months with a few new features. This talk will uncover the innovations brought us by this release, including a new syntax for control flow, deferrable loading and Angular.dev playground.",
         "tags": ["Web"],
         "complexity": "Intermediate"
+      },
+      "126": {
+        "title": "OpinionGPT: Exploring the Impact of Biases on Large Language Models",
+        "speakers": ["ansar"],
+        "type": "talk",
+        "language": "English",
+        "description": "Human biases inevitably get picked up by Large Language Models (LLMs). Consequently, a considerable amount of AI research is dedicated to bias mitigation. But what if we were to flip the objective and explicitly model various human biases? OpinionGPT explores this idea and lets users see how different types of biases in the training data affect the way LLMs respond to questions. This talk will detail the training process together with associated challenges behind OpinionGPT, as well as discuss general implications of training such a LLM.",
+        "tags": ["AI"],
+        "complexity": "Beginner"
       }
   },
   "speakers": {
@@ -1043,6 +1062,27 @@
       ],
       "title" : "Frontend Developer at Rabobank",
       "id": "daria-barsukova"
+    },
+    "ansar": {
+      "bio": "I am PhD student at the Machine Learning Chair at the HU under the supervision of Prof. Alan Akbik. My main research interests are training LLMs in a data- and parameter-efficient manner, as well as LLM evaluation.",
+      "company": "HU Berlin",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "featured": true,
+      "name": "Ansar Aynetdinov",
+      "country": "Berlin, Germany",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fansar-aynetdinov.jpg?alt=media&token=2e9d8733-5204-4b74-a9bd-e55271fe2b43",
+      "shortBio": "I am PhD student at the Machine Learning Chair at the HU under the supervision of Prof. Alan Akbik. My main research interests are training LLMs in a data- and parameter-efficient manner, as well as LLM evaluation.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ansar-aynetdinov/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "PhD Student in NLP @ HU Berlin",
+      "id": "ansar-aynetdinov"
     }
   },
   "team": [
@@ -1263,7 +1303,7 @@
       "info": "",
       "name": "Early Birds",
       "price": 10,
-      "soldOut": false,
+      "soldOut": true,
       "starts": "Sep 1",
       "url": "https://buy.stripe.com/cN25lJeKt5x5bXGfZw"
     },
@@ -1274,7 +1314,7 @@
       "info": "",
       "name": "Regular",
       "price": 20,
-      "soldOut": false,
+      "soldOut": true,
       "starts": "Oct 1",
       "url": "https://gdg.community.dev/events/details/google-gdg-berlin-presents-devfest-dach-2020-edition-the-delayed/#/"
     }
