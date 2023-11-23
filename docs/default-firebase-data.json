@@ -408,12 +408,12 @@
         "complexity": "Intermediate"
       },
       "115": {
-        "title": "Beyond Mobile: Building Personal Apps with Flutter",
-        "speakers": ["pascal"],
+        "title": "web-platform-align: baseline",
+        "speakers": ["vadim"],
         "type": "lightning",
         "language": "English",
-        "description": "Flutter is stable on mobile and desktop and it’s used by commercial apps today. But why stop there? Flutter is perfectly suited for personal apps that can simplify your daily workflows. With Flutter, you can easily share your apps with all family members or coworkers by compiling them for all platforms, even sharing them via link as web app. Let’s explore some wild ideas and practical tips, that will improve your daily workflows.",
-        "tags": ["Flutter"],
+        "description": "Look, there’s another feature shipped: cool demos, thorough articles, exciting! But is it ready for prime time? Let’s see… Half-baked in Nightly, behind the flag in Canary, kinda stable in Preview, and a bit buggy in Beta. And, of course, the spec is in the Working Draft. Meaning, what exactly? Nah, let’s wait… until you forget about it. The Baseline is here to save you from confusion and introduce stable snapshots to the Web Platform.",
+        "tags": ["Web"],
         "complexity": "Beginner"
       },
       "116": {
@@ -607,31 +607,31 @@
       "title" : "Software Developer",
       "id": "dmitry-kandalov"
     },
-    "pascal": {
-      "bio": "Pascal (Flutter GDE) had a 6-year-long Android background before he transitioned to ditch Kotlin for Dart and Flutter. At PHNTM he leads a team of Flutter talents delivering stunning user interfaces to audiences on all platforms. Pascal is a strong believer in testing and open-source. If you find any of his packages in your dependencies they are certainly well tested. Like his Feedback SDK Wiredash.",
-      "company": "phntm.xyz",
-      "companyLogo": "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fphntm.png?alt=media&token=f780a7eb-8eec-4980-8bc1-2b34b8f778b8",
+    "vadim": {
+      "bio": "Frontend developer in love with the Web, browsers, bicycles, and podcasting.",
+      "company": "MDN",
+      "companyLogo": "",
+      "companyLogoUrl": "",
       "featured": true,
-      "name": "Pascal Welsch",
-      "country": "Cologne Bonn, Germany",
-      "photo": "/images/people/carlosMota.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fpascal.png?alt=media&token=7c274a12-1612-4b13-9dde-c37024a986cc",
-      "shortBio": "Pascal (Flutter GDE) had a 6-year-long Android background before he transitioned to ditch Kotlin for Dart and Flutter. At PHNTM he leads a team of Flutter talents delivering stunning user interfaces to audiences on all platforms. Pascal is a strong believer in testing and open-source. If you find any of his packages in your dependencies they are certainly well tested. Like his Feedback SDK Wiredash.",
+      "name": "Vadim Makeev",
+      "country": "Berlin, Germany",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fvadim-makeev.jpeg?alt=media&token=f2d9d145-678a-407b-9225-03fd30186502",
+      "shortBio": "Frontend developer in love with the Web, browsers, bicycles, and podcasting.",
       "socials": [
         {
           "icon": "twitter",
-          "link": "https://twitter.com/passsy",
+          "link": "https://twitter.com/pepelsbey_dev",
           "name": "Twitter"
         },
         {
           "icon": "linkedin",
-          "link": "linkedin.com/in/pascal-welsch-679a2b80/",
+          "link": "https://www.linkedin.com/in/pepelsbey",
           "name": "LinkedIn"
         }
       ],
-      "title" : "Flutter GDE, CTO at PHNTM, Co-Founder of Wiredash",
-      "id": "pascal-welsch"
+      "title" : "He/him, MDN tech writer, Google Developer Expert, co-host of The F-Word podcast.",
+      "id": "vadim-makeev"
     },
     "fellyph": {
       "bio": "As a seasoned Front-End Engineer with over a decade of experience, I always seek new ways to enhance digital experiences. I love nothing more than sharing my knowledge with others, so I'm a passionate advocate for learning and community building. Over the years, I've been lucky to be involved with tech communities worldwide. There's nothing quite like the energy of conferences and the exchange of ideas that takes place there. Over the years, I have spoken in more than 20 countries around the globe, sharing my expertise on all things front-end: CSS, performance optimization, machine learning, Progressive Web Apps (PWAs), and SEO. In 2019, my contributions to the DEV community earned me the title of Google Developer Expert in web technologies.",
@@ -796,7 +796,7 @@
       "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/companies%2Fmonday.jpeg?alt=media&token=755c57e1-b78d-4bc1-af62-a75166d66668",
       "featured": true,
       "name": "Yonatan (Yoni) Levin",
-      "country": "Tel-Aviv, Israel",
+      "country": "",
       "photo": "/images/people/carlosMota.jpg",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fyonatan-yoni-levin.jpg?alt=media&token=4e7977e6-8754-491d-89f9-05b8120fc662",
       "shortBio": "Yonatan Levin has over a decade of tech industry experience, excelling in turning startups into market successes. Currently leading the AI Team at monday.com, his focus is on incorporating GenAI to create innovative features. Before spearheading AI initiatives, Yonatan was a key player in multiple areas at monday.com. Not only did he contribute to optimizing the API in aspects like performance and scalability, but he also built the mobile team from scratch. Outside of his role at monday.com, Yonatan is the founder of 'Android Academy', the world’s largest community of Android aficionados. As a Google Developer Expert, he is a staple on the speaking circuit of renowned tech events like Droidcon and DevFest.",
