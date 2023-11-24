@@ -1083,6 +1083,32 @@
       ],
       "title" : "PhD Student in NLP @ HU Berlin",
       "id": "ansar-aynetdinov"
+    },
+    "marco": {
+      "bio": "Marco is an Android engineer, currently working at TIER. He is a Google Developer Expert for Kotlin, he loves Kotlin and he has experience with native Android and native iOS development, as well as cross-platform development with Flutter and Kotlin Multiplatform. In his spare time, he writes and maintains open-source code, he shares his dev experience by writing on his blog, speaking at confs and organizing events with the Google Developer Group Venezia and he plays basketball.",
+      "company": "TIER",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "featured": true,
+      "name": "Marco Gomiero",
+      "country": "Berlin, Germany",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-berlin-4a469.appspot.com/o/speakers%2Fmarco-gomiero.jpg?alt=media&token=47270b95-2693-4545-8680-ccb04591737a",
+      "shortBio": "Marco is an Android engineer, currently working at TIER. He is a Google Developer Expert for Kotlin, he loves Kotlin and he has experience with native Android and native iOS development, as well as cross-platform development with Flutter and Kotlin Multiplatform.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/marcoGomier",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://linkedin.com/in/marco-gomiero",
+          "name": "LinkedIn"
+        }
+      ],
+      "title" : "Senior Android Engineer @ TIER",
+      "id": "marco-gomiero"
     }
   },
   "team": [
