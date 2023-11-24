@@ -205,7 +205,7 @@
             },
             {
               "extend": 3,
-              "items": ["120"]
+              "items": ["127"]
             },
             {
               "extend": 3,
@@ -503,6 +503,15 @@
         "description": "Human biases inevitably get picked up by Large Language Models (LLMs). Consequently, a considerable amount of AI research is dedicated to bias mitigation. But what if we were to flip the objective and explicitly model various human biases? OpinionGPT explores this idea and lets users see how different types of biases in the training data affect the way LLMs respond to questions. This talk will detail the training process together with associated challenges behind OpinionGPT, as well as discuss general implications of training such a LLM.",
         "tags": ["AI"],
         "complexity": "Beginner"
+      },
+      "127": {
+        "title": "Introducing Kotlin Multiplatform in an existing mobile app",
+        "speakers": ["marco"],
+        "type": "workshop",
+        "language": "English",
+        "description": "After discovering a new interesting technology or framework, you will probably start asking yourself how to integrate it into an existing project. That's because, the possibility of starting with a blank canvas is rare (not impossible, but rare). <br><br>This is also the case for Kotlin Multiplatform, which is getting more and more hype every day. And now, that the technology has become stable, it's the perfect time to start using it! <br> In this hands-on session, we will start with an existing Android and iOS application that \"lives\" in separate repositories, we will extract the business logic from the Android app and share it between the two apps with a Kotlin Multiplatform library. We will also cover how to distribute the library to the existing applications.<br>By the end of this workshop, you'll have a better understanding of what is needed to start using Kotlin Multiplatform in your existing projects.<br><br> To follow along in the workshop you will need:<br>- Android Studio with the <a href=\"https://plugins.jetbrains.com/plugin/14936-kotlin-multiplatform-mobile\">\"Kotlin Multiplatform Mobile\" plugin</a><br>- Xcode",
+        "tags": ["Kotlin"],
+        "complexity": "Intermediate"
       }
   },
   "speakers": {
